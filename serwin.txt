@@ -100,7 +100,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "visa.cn",
+            "address": "172.67.120.0",
             "port": 443,
             "users": [
               {
@@ -152,7 +152,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "youtube.com/@purnet  purnet",
+  "remarks": "fastpurnet.pages.dev purnet",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
