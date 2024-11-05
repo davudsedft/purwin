@@ -100,13 +100,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.44.59",
-            "port": 2083,
+            "address": "visa.cn",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "id": "df434087-13a8-46c8-b03c-663b518c7451",
                 "level": 8,
                 "security": "auto"
               }
@@ -119,22 +119,18 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
           "fingerprint": "randomized",
           "publicKey": "",
-          "serverName": "bPB-woRkEr-panEl-BRH.PaGes.dEv",
+          "serverName": "fastpurnet.pages.dev",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "bpb-worker-panel-brh.pages.dev"
+            "Host": "fastpurnet.pages.dev"
           },
-          "path": "/6UKaxic8R1oseUCc?ed=2560"
+          "path": "/fastpurnet.pages.dev/?ed=2560"
         }
       },
       "tag": "proxy"
@@ -156,7 +152,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "ggh",
+  "remarks": "youtube.com/@purnet  purnet",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
