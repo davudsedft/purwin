@@ -100,13 +100,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.120.0",
-            "port": 443,
+            "address": "iranshopnetwork.purtuf.ir",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "df434087-13a8-46c8-b03c-663b518c7451",
+                "id": "632f8a9a-814b-45bb-bc2d-9f8a0a705798",
                 "level": 8,
                 "security": "auto"
               }
@@ -119,18 +119,21 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "alpn": [
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
           "publicKey": "",
-          "serverName": "fastpurnet.pages.dev",
+          "serverName": "iranshopnetwork.purtuf.ir",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "fastpurnet.pages.dev"
+            "Host": "iranshopnetwork.purtuf.ir"
           },
-          "path": "/fastpurnet.pages.dev/?ed=2560"
+          "path": "/"
         }
       },
       "tag": "proxy"
@@ -152,7 +155,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "fastpurnet.pages.dev purnet",
+  "remarks": "nahidv4-windows",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
