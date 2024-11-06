@@ -100,13 +100,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "iranshopnetwork.purtuf.ir",
-            "port": 2096,
+            "address": "172.66.47.130",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "632f8a9a-814b-45bb-bc2d-9f8a0a705798",
+                "id": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75",
                 "level": 8,
                 "security": "auto"
               }
@@ -120,20 +120,21 @@
         "tlsSettings": {
           "allowInsecure": false,
           "alpn": [
+            "h2",
             "http/1.1"
           ],
-          "fingerprint": "chrome",
+          "fingerprint": "randomized",
           "publicKey": "",
-          "serverName": "iranshopnetwork.purtuf.ir",
+          "serverName": "PURCOwfAsT.PAges.dev",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "iranshopnetwork.purtuf.ir"
+            "Host": "purcowfast.pages.dev"
           },
-          "path": "/"
+          "path": "/20DkJ8KVT8CPYDxw?ed=2560"
         }
       },
       "tag": "proxy"
@@ -155,7 +156,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "nahidv4-windows",
+  "remarks": "hjj",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
