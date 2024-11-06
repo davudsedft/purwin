@@ -100,13 +100,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.47.130",
+            "address": "172.67.95.24",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75",
+                "id": "df434087-13a8-46c8-b03c-663b518c7451",
                 "level": 8,
                 "security": "auto"
               }
@@ -119,22 +119,18 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
           "fingerprint": "randomized",
           "publicKey": "",
-          "serverName": "PURCOwfAsT.PAges.dev",
+          "serverName": "fastpurnet.pages.dev",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "purcowfast.pages.dev"
+            "Host": "fastpurnet.pages.dev"
           },
-          "path": "/20DkJ8KVT8CPYDxw?ed=2560"
+          "path": "/fastpurnet.pages.dev/?ed=2560"
         }
       },
       "tag": "proxy"
@@ -156,7 +152,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "hjj",
+  "remarks": "fastpurnet.pages.dev purnet",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
