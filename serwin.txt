@@ -1,1 +1,1 @@
-vless://632f8a9a-814b-45bb-bc2d-9f8a0a705798@iranshopnetwork.purtuf.ir:2096?type=ws&path=%2F&host=iranshopnetwork.purtuf.ir&security=tls&fp=chrome&alpn=http%2F1.1&sni=iranshopnetwork.purtuf.ir#nahidv4-windows
+trojan://bpb-trojan@172.66.44.126:443?path=%2Ftr04Dttkg5w1OI3RzT%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&host=purcowfast.pages.dev&fp=randomized&type=ws&sni=PUrcOWfaSt.pAgES.deV#%F0%9F%92%A6+12+-+Trojan+-+IPv4+%3A+443
