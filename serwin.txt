@@ -96,16 +96,21 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "172.66.44.126",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "bpb-trojan",
-            "port": 443
+            "address": "140.248.128.5",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f2dc17f5-3113-4a40-8c51-55fe0e2c7f75",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
         ]
       },
@@ -113,20 +118,23 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "allowInsecure": false,
+          "allowInsecure": true,
           "alpn": [
             "h2",
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "PUrcOWfaSt.pAgES.deV",
-          "show": false
+          "publicKey": "",
+          "serverName": "beeev.co",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "purcowfast.pages.dev"
+            "Host": "beeev.co"
           },
-          "path": "/tr04Dttkg5w1OI3RzT?ed=2560"
+          "path": "/McTdBrRQ5P2selZF?ed=2560"
         }
       },
       "tag": "proxy"
@@ -148,7 +156,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "💦 12 - Trojan - IPv4 : 443",
+  "remarks": "beev",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
