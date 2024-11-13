@@ -1,1 +1,1 @@
-vless://df434087-13a8-46c8-b03c-663b518c7451@icook.hk:443?path=%2Ffastpurnet.pages.dev%2F%3Fed%3D2560&security=tls&encryption=none&host=fastpurnet.pages.dev&fp=randomized&type=ws&sni=fastpurnet.pages.dev#t.me%2Fpurnet++purnet
+vless://63cc0ed5-730a-465a-8f9a-a42638f810cd@104.16.134.27:2083?encryption=none&security=tls&sni=fastpurnet.pages.dev&fp=randomized&type=ws&host=fastpurnet.pages.dev&path=%2Ffastpurnet.pages.dev%2F%3Fed%3D2560#%F0%9F%87%BA%F0%9F%87%B8%20US%20purnet
