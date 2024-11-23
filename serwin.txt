@@ -99,13 +99,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "2a01:4f9:c010:57ce::1",
-            "port": 44019,
+            "address": "104.17.128.1",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "98268242-8ee1-43c8-a368-d9868cb13ef9",
+                "id": "8103edd2-f442-4777-bf5b-907bc1de6def",
                 "level": 8,
                 "security": "auto"
               }
@@ -114,26 +114,22 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
         "security": "tls",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
-        },
         "tlsSettings": {
           "allowInsecure": false,
-          "alpn": [
-            "h3",
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "chrome",
+          "fingerprint": "randomized",
           "publicKey": "",
-          "serverName": "sinamobile.purtuf.ir",
+          "serverName": "63219f2c.jetpurjetpurlite.pages.dev",
           "shortId": "",
           "show": false,
           "spiderX": ""
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "63219f2c.jetpurjetpurlite.pages.dev"
+          },
+          "path": "/63219f2c.jetpurjetpurlite.pages.dev/?ed=2560"
         }
       },
       "tag": "proxy"
@@ -155,7 +151,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "New-windows",
+  "remarks": "🇺🇸 US purlite",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
