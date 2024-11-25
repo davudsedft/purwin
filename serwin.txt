@@ -99,13 +99,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "time.is",
+            "address": "198.62.62.156",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "77470ed6-7da8-47dc-8963-5f538ff08404",
+                "id": "e2789ce2-34d8-4116-aa90-3bc8e4d02fae",
                 "level": 8,
                 "security": "auto"
               }
@@ -120,16 +120,16 @@
           "allowInsecure": false,
           "fingerprint": "randomized",
           "publicKey": "",
-          "serverName": "frepurliteneww.pages.dev",
+          "serverName": "9e213fa0.purnet.pages.dev",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "frepurliteneww.pages.dev"
+            "Host": "9e213fa0.purnet.pages.dev"
           },
-          "path": "/frepurliteneww.pages.dev/?ed=2560"
+          "path": "/9e213fa0.purnet.pages.dev/?ed=2560"
         }
       },
       "tag": "proxy"
@@ -151,7 +151,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "github.com/davudsedft  purlite",
+  "remarks": "🇺🇸 US purnet",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
