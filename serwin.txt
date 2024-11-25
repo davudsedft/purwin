@@ -99,13 +99,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.62.62.156",
-            "port": 443,
+            "address": "sinamobile.purtuf.ir",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e2789ce2-34d8-4116-aa90-3bc8e4d02fae",
+                "id": "ef6fc525-140a-4841-9717-79d95fcf5a8f",
                 "level": 8,
                 "security": "auto"
               }
@@ -118,18 +118,23 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "alpn": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "chrome",
           "publicKey": "",
-          "serverName": "9e213fa0.purnet.pages.dev",
+          "serverName": "sinamobile.purtuf.ir",
           "shortId": "",
           "show": false,
           "spiderX": ""
         },
         "wsSettings": {
           "headers": {
-            "Host": "9e213fa0.purnet.pages.dev"
+            "Host": "sinamobile.purtuf.ir"
           },
-          "path": "/9e213fa0.purnet.pages.dev/?ed=2560"
+          "path": "/"
         }
       },
       "tag": "proxy"
@@ -151,7 +156,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🇺🇸 US purnet",
+  "remarks": "sss-y06se82r",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
