@@ -109,13 +109,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.26.214",
+            "address": "fb5f3e4a.newmakhzan2.pages.dev",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "id": "a9b64c6a-5b51-4e9b-ac7d-2f0288dcce09",
                 "level": 8
               }
             ]
@@ -127,22 +126,15 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
           "fingerprint": "randomized",
-          "publicKey": "",
-          "serverName": "PpAl03.YewIw52268.wOrKers.DEv",
-          "shortId": "",
-          "show": false,
-          "spiderX": ""
+          "serverName": "fb5f3e4a.newmakhzan2.pages.dev",
+          "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "ppal03.yEWiW52268.WorkErS.deV"
+            "Host": "fb5f3e4a.newmakhzan2.pages.dev"
           },
-          "path": "/CP7hzX1RUWSV4aMI?ed=2560"
+          "path": "/?ed=2048"
         }
       },
       "tag": "proxy"
@@ -164,7 +156,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "uiui",
+  "remarks": "fb5f3e4a.newmakhzan2.pages.dev",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
