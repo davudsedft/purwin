@@ -109,12 +109,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "24ed1711.newwwww-9z8.pages.dev",
-            "port": 443,
+            "address": "151.101.3.8",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
-                "id": "fde7de1a-5f80-43fb-a760-64cee51a00f8",
+                "id": "3314adf5-1a55-45a9-999d-c72b0562a95f",
                 "level": 8
               }
             ]
@@ -123,18 +123,12 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "24ed1711.newwwww-9z8.pages.dev",
-          "show": false
-        },
+        "security": "none",
         "wsSettings": {
           "headers": {
-            "Host": "24ed1711.newwwww-9z8.pages.dev"
+            "Host": "api.nhl109.ir"
           },
-          "path": "/?ed=2048"
+          "path": "/telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048"
         }
       },
       "tag": "proxy"
@@ -156,7 +150,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "24ed1711.newwwww-9z8.pages.dev",
+  "remarks": "🔒 VL-WS-NONE 🇺🇸 US-151.101.3.8:80",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
