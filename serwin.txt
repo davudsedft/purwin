@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.154:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.154:8080
+vless://b30672dd-2793-40ff-95b8-08a0350332cb@151.101.130.219:80?security=none&type=ws&host=XpnTeam.ir&path=@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam%3Fed%3D2048#🔒 VL-WS-NONE 🇺🇸 US-151.101.130.219:80
