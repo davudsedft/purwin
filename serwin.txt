@@ -109,12 +109,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.44.2.219",
-            "port": 8443,
+            "address": "104.18.203.232",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
-                "id": "e84e0eac-7ac9-4029-bdf9-0d79219e60ce",
+                "flow": "",
+                "id": "b7452373-bbe9-4a36-baf1-d3f969387444",
                 "level": 8
               }
             ]
@@ -122,23 +123,13 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "authority": "",
-          "health_check_timeout": 20,
-          "idle_timeout": 60,
-          "multiMode": false,
-          "serviceName": "JoinBadeChannel@antimeli"
-        },
-        "network": "grpc",
-        "realitySettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "r5t0FMNYQZ6MyEjittGRVQtAtyV8miQC3Cqzcx_cRG4",
-          "serverName": "www.speedtest.net",
-          "shortId": "37c6859775",
-          "show": false
-        },
-        "security": "reality"
+        "network": "ws",
+        "wsSettings": {
+          "headers": {
+            "Host": "canal-selinc-selinc.wlezuqx.workers.dev"
+          },
+          "path": "/?ed=2560"
+        }
       },
       "tag": "proxy"
     },
@@ -159,7 +150,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-GRPC-RLT 🇳🇱 NL-31.44.2.219:8443",
+  "remarks": "ghgh",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
