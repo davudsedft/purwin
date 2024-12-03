@@ -109,12 +109,12 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.75.172",
-            "port": 443,
+            "address": "31.44.2.219",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
-                "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+                "id": "e84e0eac-7ac9-4029-bdf9-0d79219e60ce",
                 "level": 8
               }
             ]
@@ -122,19 +122,23 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
+        "grpcSettings": {
+          "authority": "",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": "JoinBadeChannel@antimeli"
+        },
+        "network": "grpc",
+        "realitySettings": {
           "allowInsecure": false,
-          "serverName": "a.xn--i-sx6a60i.us.kg",
+          "fingerprint": "chrome",
+          "publicKey": "r5t0FMNYQZ6MyEjittGRVQtAtyV8miQC3Cqzcx_cRG4",
+          "serverName": "www.speedtest.net",
+          "shortId": "37c6859775",
           "show": false
         },
-        "wsSettings": {
-          "headers": {
-            "Host": "a.xn--i-sx6a60i.us.kg"
-          },
-          "path": "/?ed=2560"
-        }
+        "security": "reality"
       },
       "tag": "proxy"
     },
@@ -155,7 +159,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.75.172:443",
+  "remarks": "🔒 VL-GRPC-RLT 🇳🇱 NL-31.44.2.219:8443",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
