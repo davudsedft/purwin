@@ -105,25 +105,36 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "wireguard",
+      "protocol": "vless",
       "settings": {
-        "address": [
-          "172.16.0.2/32"
-        ],
-        "mtu": 1280,
-        "peers": [
+        "vnext": [
           {
-            "endpoint": "[2606:4700:d0::2462:7d:d092:a731]:859",
-            "preSharedKey": "",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            "address": "172.67.75.172",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+                "level": 8
+              }
+            ]
           }
-        ],
-        "reserved": [
-          154,
-          146,
-          95
-        ],
-        "secretKey": "2EVeZtRqyvBgWBU8rd1Y0Ts7FUKkfgv29ESZzX/YLV8="
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "a.xn--i-sx6a60i.us.kg",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "a.xn--i-sx6a60i.us.kg"
+          },
+          "path": "/?ed=2560"
+        }
       },
       "tag": "proxy"
     },
@@ -144,7 +155,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Warp",
+  "remarks": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.75.172:443",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
