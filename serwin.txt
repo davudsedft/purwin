@@ -109,13 +109,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.203.232",
-            "port": 80,
+            "address": "172.67.75.172",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "b7452373-bbe9-4a36-baf1-d3f969387444",
+                "id": "d342d11e-d424-4583-b36e-524ab1f0afa4",
                 "level": 8
               }
             ]
@@ -124,9 +124,19 @@
       },
       "streamSettings": {
         "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "",
+          "publicKey": "",
+          "serverName": "a.xn--i-sx6a60i.us.kg",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
+        },
         "wsSettings": {
           "headers": {
-            "Host": "canal-selinc-selinc.wlezuqx.workers.dev"
+            "Host": "a.xn--i-sx6a60i.us.kg"
           },
           "path": "/?ed=2560"
         }
@@ -150,7 +160,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "ghgh",
+  "remarks": "uuiioo",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
