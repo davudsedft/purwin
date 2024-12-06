@@ -109,12 +109,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.233.160.138",
-            "port": 80,
+            "address": "199.232.8.123",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
-                "id": "ef27e62d-91bd-4676-b9ce-8743a73eda07",
+                "flow": "",
+                "id": "d578322a-266b-479d-9eda-f1b41324e721",
                 "level": 8
               }
             ]
@@ -122,20 +123,22 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "realitySettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "publicKey": "BVimgXtKkQ2Q6EpG8uKYTpySrNxEeIqVhdsxi5U5qRU",
-          "serverName": "zula.ir",
-          "shortId": "94aa1bdc",
-          "show": false
+          "fingerprint": "",
+          "publicKey": "",
+          "serverName": "IRANINGOAT2.IR",
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
         },
-        "security": "reality",
-        "tcpSettings": {
-          "header": {
-            "type": "none"
-          }
+        "wsSettings": {
+          "headers": {
+            "Host": "IRANINGOAT2.IR"
+          },
+          "path": "/RsAMasAPMX5yb1YZ?ed=2560"
         }
       },
       "tag": "proxy"
@@ -157,7 +160,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-TCP-RLT 🇺🇸 US-172.233.160.138:80",
+  "remarks": "hjhj",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
