@@ -114,6 +114,7 @@
             "users": [
               {
                 "encryption": "none",
+                "flow": "",
                 "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
                 "level": 8
               }
@@ -131,8 +132,11 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
+          "publicKey": "",
           "serverName": "ppaL03.KEsaP55326.WoRkerS.DEV",
-          "show": false
+          "shortId": "",
+          "show": false,
+          "spiderX": ""
         },
         "wsSettings": {
           "headers": {
@@ -160,7 +164,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.128.29:443",
+  "remarks": "uiy",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
