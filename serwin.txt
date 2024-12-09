@@ -1,1 +1,1 @@
-trojan://telegram-id-privatevpns@35.177.35.170:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#🔒 TR-TCP-TLS 🇬🇧 GB-35.177.35.170:22222
+vless://030ff4cf-6194-4177-90da-a49f46f9afce@172.67.188.196:443?security=tls&sni=WoRKeR-WINTeR-BreEzE-4702.C6A6c6.wORkers.DeV&type=ws&host=WoRkeR-wIntER-BrEezE-4702.C6A6C6.WORKErs.Dev&path=%2FAgjOkU51bJ1hNmHL%3Fed%3D2048&fp=randomized&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.188.196:443
