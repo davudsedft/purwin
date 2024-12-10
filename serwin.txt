@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxUld3WGh3ZkFCNWdBRW96VTRHMlBn@45.87.175.178:8080#hhbb
+vless://e7c2b0ac-a760-4ac6-bfd1-4a12d6631c38@185.184.70.234:443?security=reality&flow=xtls-rprx-vision&sni=mass.clockdeny2.eu&type=tcp&fp=chrome&pbk=zyjTvDRbojRiBhMbHOOBOVuYgwr1BJ4tNJ-thndhkQg&sid=657e37a6a5558c04#4Sarina-7490
