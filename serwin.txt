@@ -1,12 +1,7 @@
-vless://aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9@70.34.222.150:443?path=%2Fwspath&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=xraypsiphon.sassanidempire.com&fp=randomized&type=ws&sni=xraypsiphon.sassanidempire.com#hjj
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@51.112.94.232:443#vbhb
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiYThkNjQ5Mi1mM2Y1LTQzNzYtYWE4OC0xYzNiZGE1N2E2ZDk%3D@45.158.59.74:58060#hhjj
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.188:8080#ghgg
-
-vless://69f8b663-1bb1-466d-a440-82814c5281d2@142.132.237.159:333?security=reality&sni=www.speedtest.net&type=grpc&fp=chrome&pbk=k7IVO7W6lPYjx7B9LnjZxA4cwTgCWiYF3w3wGE7wERU&sid=fee425#🔒 VL-GRPC-RLT 🇩🇪 DE-142.132.237.159:333
-vless://9f8fca93-a770-4885-aa84-027839e5c2ed@78.111.86.130:8443?security=reality&sni=www.speedtest.net&type=grpc&serviceName=JoinBadeChannel@antimeli&fp=chrome&pbk=48XXYR0GPgrZ2TQNikgwd8j-J0wpcyzb_3NSg-k0vCw&sid=71b896#🔒 VL-GRPC-RLT 🇳🇱 NL-78.111.86.130:8443
-vless://e4527384-4f20-4378-95dc-403996f12588@85.159.229.88:2087?security=reality&sni=dash.cloudflare.com&type=grpc&fp=firefox&pbk=GicA8fPbS9LksttApqa8gzOstomRFncKNoYGLCOqQF8&sid=fc805835#🔒 VL-GRPC-RLT 🇮🇪 IE-85.159.229.88:2087
-vless://6c404fc4-285f-4a7b-9936-ee8338c4dfff@46.3.106.57:11027?security=reality&flow=xtls-rprx-vision&sni=csgo.com&type=tcp&fp=chrome&pbk=-kNV7eKdAGI4ykUH-JpitrMwovIY5IOZ4cGiaDn5MUQ&sid=c0aeddb6#🔒 VL-TCP-RLT 🇷🇺 RU-46.3.106.57:11027
-vless://043f42f0-861d-4efd-8d36-8fb1a0eef823@45.67.32.147:37665?security=reality&flow=xtls-rprx-vision&sni=psv4.vkuseraudio.net&type=tcp&fp=random&pbk=fcjBIZcvVsr1Gy-iZbIko-0Ey5icPtmXIxY3sd4UEFw&sid=9168#🔒 VL-TCP-RLT 🇷🇺 RU-45.67.32.147:37665
-
-trojan://telegram-id-directvpn@52.47.213.177:22222?security=tls&sni=trojan.burgerip.co.uk&type=tcp&alpn=http/1.1#🔒 TR-TCP-TLS 🇫🇷 FR-52.47.213.177:22222
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.157:8080#4Jadi-8
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.166:8080#4Jadi-9
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.188:8080#4Jadi-12
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.samanehha.co:443#4Jadi-149
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.171:8080#4Jadi-10
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@api.namasha.co:443#4Jadi-124
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNQjlKUENIZ1p0d3pRWjJqeTNnTXJ6MmZDSWpUNk00RkpNYmZlbUljNFhDQmNwbEw@74.119.193.157:51348#4Jadi-420
