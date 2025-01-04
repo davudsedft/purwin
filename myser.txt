@@ -1,17 +1,16 @@
-trojan://7f2b54d0-c85d-11ef-9e18-1239d0255272@51.210.182.170:443?security=tls&sni=zula.ir&type=tcp#🔒 TR-TCP-TLS 🇫🇷 FR-51.210.182.170:443
-trojan://ee3eeb70-c85c-11ef-a0ab-1239d0255272@51.38.65.155:443?security=tls&sni=uk1.test3.net&type=tcp&allowInsecure=1#🔒 TR-TCP-TLS 🇬🇧 GB-51.38.65.155:443
-
-trojan://e8105dfd24414268b6c7652c63731097@108.61.177.251:443?security=tls&headerType=none&type=tcp&sni=yournextcareerstep.online#IR-%40V2ray_Alpha-04
-trojan://984e400bf5d541b7b0815913fe0c432a@yournextcareerstep.online:443?security=tls&headerType=none&type=tcp#MCI-%40V2ray_Alpha-07
-trojan://243eab52-9ac1-405c-887c-eb112c0985b8@74.226.136.204:443?security=tls&sni=us01.trojanyyds.xyz&type=tcp&allowInsecure=1#🔒 TR-TCP-TLS 🇯🇵 JP-74.226.136.204:443
-trojan://243eab52-9ac1-405c-887c-eb112c0985b8@de01.trojanyyds.xyz:443?allowInsecure=0&sni=de01.trojanyyds.xyz#%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20%E4%B8%9C%E4%BA%AC%E9%83%BD%E4%BA%9A%E9%A9%AC%E9%80%8A%28Amazon%29%E5%85%AC%E5%8F%B8%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83
-
-vless://3e34582d-b8e5-4ea3-b964-95e8ffb04091@62.60.220.95:2222?type=ws&host=www.mansory.com,www.netflix.com,www.cloudflare.com,www.lamborghini.com,upera.shop,satra.ir,www.zula.ir&path=/telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech,telegram-@ASinTech?ed%3D2560#🇩🇪[openproxylist.com] vless-DE 176ms DE [Hetzner Online GmbH]
-vless://ee01027e-e413-575a-8a5f-ba8ba569eb8b@151.101.192.223:80?security=none&sni=faculty.ucdavis.edu&type=ws&host=tg.ELiV2RaY.ir&path=%2F--%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY%3Fed%3D2560&fp=qq#🔗 Vauth - 417
-vless://860bf99f-6817-4892-aa77-1877ec73a57b@173.245.58.100:80?path=%2F&security=none&encryption=none&host=knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM&type=ws#🔗 Vauth - 11
-vless://04c924c7-551e-4c67-b3fa-9cca9e8cdc78@pscresearch.faculty.ucdavis.edu:443?path=ws%2F%3Fed%3D2048&security=tls&encryption=none&host=ihrcxextyuj.com&type=ws&sni=pscresearch.faculty.ucdavis.edu#🔗 Vauth - 158
-vless://a9adee05-1986-4bff-9602-b8c197195ebd@49.13.239.141:1615?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=JGnVRUSzYfMg3pwJKIGO84Lyo1_nalQe21b3EG0JiV8#🔗 Vauth - 300
-vless://04c924c7-551e-4c67-b3fa-9cca9e8cdc78@pscresearch.faculty.ucdavis.edu:443?path=ws%2F%3Fed%3D2048&security=tls&encryption=none&host=ihrcxextyuj.com&type=ws&sni=pscresearch.faculty.ucdavis.edu#🔗 Vauth - 96
-vless://04c924c7-551e-4c67-b3fa-9cca9e8cdc78@pscresearch.faculty.ucdavis.edu:443?path=ws%2F%3Fed%3D2048&security=tls&encryption=none&host=ihrcxextyuj.com&type=ws&sni=pscresearch.faculty.ucdavis.edu#🔗 Vauth - 93
-vless://ee01027e-e413-575a-8a5f-ba8ba569eb8b@151.101.128.223:80?security=none&sni=faculty.ucdavis.edu&type=ws&host=tg.ELiV2RaY.ir&path=%2F--%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY----%40ELiV2RAY%3Fed%3D2560&fp=qq#🔗 Vauth - 451
-vless://031a6df1-1eb4-43b3-8e07-9e937447d275@136.244.115.217:8080?security=reality&sni=varzesh3.com&type=grpc&serviceName=vless8080&fp=chrome&pbk=zUPLIGg707x4MLqRzvg6Dej2i5F0wBXFHsA7WzHb1hs&sid=de3a9e23#🔗 Vauth - 357
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.188:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.188:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.154:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.154:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4emxPcXkydjZ2SjBYdkZUTjh6SUJI@185.190.250.103:57328#🔒 SS-TCP-NA 🇧🇬 BG-185.190.250.103:57328
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.199:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.199:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@40.172.152.152:443#🔒 SS-TCP-NA 🇦🇪 AE-40.172.152.152:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5TVg5V0dQZ1VFY1JabWxhYTBZSEhD@103.106.1.92:23492#🔒 SS-TCP-NA 🇲🇩 MD-103.106.1.92:23492
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@35.177.24.159:443#🔒 SS-TCP-NA 🇬🇧 GB-35.177.24.159:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.178:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.178:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.157:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1UnVpdlBPVTlqUTRWTWZLaHVlSlhV@138.124.93.193:38500#🔒 SS-TCP-NA 🇩🇪 DE-138.124.93.193:38500
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@16.24.55.248:443#🔒 SS-TCP-NA 🇧🇭 BH-16.24.55.248:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.171:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.171:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@18.132.136.92:443#🔒 SS-TCP-NA 🇬🇧 GB-18.132.136.92:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMdXh5TmV0Qm90@23.88.37.31:443#🔒 SS-TCP-NA 🇩🇪 DE-23.88.37.31:443
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1@45.87.175.166:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.166:8080
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.181:8080#🔒 SS-TCP-NA 🇱🇹 LT-45.87.175.181:8080
