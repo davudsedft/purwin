@@ -1,7 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.157:8080#4Jadi-8
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.166:8080#4Jadi-9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.188:8080#4Jadi-12
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR@series-a2-me.samanehha.co:443#4Jadi-149
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh@45.87.175.171:8080#4Jadi-10
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@api.namasha.co:443#4Jadi-124
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNQjlKUENIZ1p0d3pRWjJqeTNnTXJ6MmZDSWpUNk00RkpNYmZlbUljNFhDQmNwbEw@74.119.193.157:51348#4Jadi-420
+vless://04c924c7-551e-4c67-b3fa-9cca9e8cdc78@pscresearch.faculty.ucdavis.edu:443?path=ws%2F%3Fed%3D2048&security=tls&encryption=none&host=ihrcxextyuj.com&type=ws&sni=pscresearch.faculty.ucdavis.edu#IR-%40V2ray_Alpha-20
