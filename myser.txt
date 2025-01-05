@@ -1,3 +1,5 @@
+trojan://bd213170-c9cf-11ef-b198-1239d0255272@51.38.65.155:443?security=tls&sni=telewebion.com&type=tcp#🔒 TR-TCP-TLS 🇬🇧 GB-51.38.65.155:443
+trojan://984e400bf5d541b7b0815913fe0c432a@108.61.177.251:443?security=tls&sni=yournextcareerstep.online&type=tcp&allowInsecure=1#🔒 TR-TCP-TLS 🇫🇷 FR-108.61.177.251:443
 
 trojan://e8105dfd24414268b6c7652c63731097@108.61.177.251:443?security=tls&headerType=none&type=tcp&sni=yournextcareerstep.online#IR-%40V2ray_Alpha-04
 trojan://264db530-c75d-11ef-81d2-1239d0255272@51.38.65.155:443?security=tls&sni=www.speedtest.net&type=tcp#🔒 TR-TCP-TLS 🇬🇧 GB-51.38.65.155:443
