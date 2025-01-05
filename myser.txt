@@ -1,4 +1,3 @@
-trojan://FuUaWS3YWG@38.175.201.156:2053?mode=gun&security=tls&type=grpc&sni=Crunch.floorshoping22.com#uy
 vless://e22aca05-87ea-48f9-8389-90d88b4a708d@104.18.27.94:443?security=tls&sni=esetsecuritylicense.vvdjqi.workers.dev&type=ws&host=esetsecuritylicense.vvdjqi.workers.dev&path=%2F&fp=chrome#🔒 VL-WS-TLS 🏴‍☠️ NA-104.18.27.94:443
 vless://2163db1f-34a6-437b-a75a-56a6595d6be6@5.75.202.97:19211?security=none&type=tcp#🔒 VL-TCP-NONE 🇩🇪 DE-5.75.202.97:19211
 vless://630c01ee-92db-4a15-9573-0955853ce362@104.21.61.43:443?security=tls&sni=w26io.deonta-yancy.workers.dev&type=ws&host=w26io.deonta-yancy.workers.dev&path=%2F%3Fed%3D2048%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi&fp=edge&alpn=http%2F1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-104.21.61.43:443
