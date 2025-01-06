@@ -1,4 +1,3 @@
-trojan://e8105dfd24414268b6c7652c63731097@108.61.177.251:443?security=tls&headerType=none&type=tcp&sni=yournextcareerstep.online#IR-%40V2ray_Alpha-04
 trojan://984e400bf5d541b7b0815913fe0c432a@yournextcareerstep.online:443?security=tls&headerType=none&type=tcp#MCI-%40V2ray_Alpha-07
 vless://860bf99f-6817-4892-aa77-1877ec73a57b@173.245.58.100:80?path=%2F&security=none&encryption=none&host=knOtNrmV2rayOtanOtrmNnOtenOtl.terminal-kaneop-none.SARBAZIT.COM&type=ws#ir--%40V2ray_Alpha--10
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@23.157.40.95:8881#WiFI--%40V2ray_Alpha-01
