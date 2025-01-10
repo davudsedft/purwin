@@ -1,8 +1,7 @@
-vless://6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1@89.187.169.71:8443?security=tls&sni=vkvd127.mycdn.me&type=tcp&fp=chrome&alpn=h2#🔒 VL-TCP-TLS 🇩🇪 DE-89.187.169.71:8443
+
 vless://c39d34d1-8723-42fd-a63d-1c857c76249a@80.240.112.94:443?security=reality&sni=www.google.com&type=tcp&host=v2line.t.me&fp=chrome&pbk=mD8V76JrLVJQrQXtyNVgcqwptE9PzcF8nEJe3MyhTDY&sid=f0db85b11110c6&allowInsecure=1#🔒 VL-TCP-RLT 🇩🇪 DE-80.240.112.94:443
 vless://c831e441-42fb-40c2-9be5-7142c2e893d2@185.255.112.175:5610?security=reality&flow=xtls-rprx-vision&sni=refersion.com&type=tcp&fp=chrome&pbk=y6JSkggQ__RA_nmCJpX1_ddSQC6vzDUPaN7KyvjVuic#🔒 VL-TCP-RLT 🇫🇷 FR-185.255.112.175:5610
 vless://3ce0c2f2-e3da-54fc-8be7-47a1a6d4b24e@77.91.103.47:2052?security=none&type=ws&host=www-domain.fi1.v2vless.sitespeedtest.net&path=%2Fvless%23%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi%2C%40alpha_v2ray_fazayi#🔒 VL-WS-NONE 🇫🇮 FI-77.91.103.47:2052
-vless://e49ce5e6-b80d-4c9e-82a8-0f14c8887a3b@141.101.90.97:443?security=tls&sni=falcunargo.e0aef55581.workers.Dev&type=ws&host=falcunargo.e0aef55581.workers.Dev&path=%2F%3Fed%3D2048#🔒 VL-WS-TLS 🏴‍☠️ NA-141.101.90.97:443
 vless://c538dafa-4f0d-512a-ae22-c92e2e8b56fe@5.252.23.133:2052?security=none&type=ws&host=5.252.23.133.&path=%2Fvless#🔒 VL-WS-NONE 🇸🇰 SK-5.252.23.133:2052
 vless://95089f63-c732-4594-bfcb-c8180bd09a1c@65.109.238.202:443?type=ws&host=5h1.golabkashaniz.info&path=%2F#🔒 VL-WS-NA 🇫🇮 FI-65.109.238.202:443
 vless://95089f63-c732-4594-bfcb-c8180bd09a1c@65.21.153.186:443?security=none&type=ws&host=5h4.golabkashaniz.info&path=%2F#🔒 VL-WS-NONE 🇫🇮 FI-65.21.153.186:443
@@ -10,4 +9,4 @@ vless://7de0385b-8c3b-46fd-8574-1db0c061eb9a@91.134.100.48:55235?security=realit
 vless://aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9@70.34.222.150:443?path=%2Fwspath&security=tls&alpn=http%2F1.1&encryption=none&host=xraypsiphon.sassanidempire.com&fp=chrome&type=ws&sni=xraypsiphon.sassanidempire.com#ir--%40V2ray_Alpha--13
 vless://aaf8a6c9-aaad-4f85-dd01-9ccd4ca554f9@70.34.222.150:443?security=tls&sni=xraypsiphon.sassanidempire.com&type=ws&host=xraypsiphon.sassanidempire.com&path=%2Fwspath&fp=chrome&alpn=http/1.1#🇸🇪[openproxylist.com]
 vless://1051bfbb-90db-4261-b5e4-8b91f62b436f@156.67.30.77:443?security=reality&flow=xtls-rprx-vision&sni=spotify.com&type=tcp&fp=chrome&pbk=SDUAmbkyV3wQEEXwV9wpwTqS2qi7gOekiZNpS1jfcXc&sid=d59cd3&alpn=http%2F1.1#🔒 VL-TCP-RLT 🇩🇪 DE-156.67.30.77:443
-vless://d854ce54-d193-4e13-9c0c-0125ecdec2de@195.133.11.229:443?security=tls&sni=knowledgemap.ubntddns.com&type=ws&host=knowledgemap.ubntddns.com&path=%2Fgetupdates&fp=random#🔒 VL-WS-TLS 🇷🇺 RU-195.133.11.229:443
+
