@@ -1,11 +1,151 @@
-vless://42f36835-730c-4ecc-9daf-20121ae7ba47@167.82.71.3:80?type=ws&host=edge.validbv3528.ir&path=%2Fvless-ws%2F%40Azarbayjab1%40Azarbayjab1%40Azarbayjab1%40Azarbayjab1%40Azarbayja1%2F%3Fed%3D2560#🔒 VL-WS-NA 🇺🇸 US-167.82.71.3:80
-vless://fa5fad95-b348-41fd-92da-a314fdcb81e3@95.179.213.48:8080?security=reality&sni=varzesh3.com&type=grpc&serviceName=%40AVASH_NET%2F%40AVASH_NET%2F%40AVASH_NET%2F%40AVASH_NET&fp=chrome&pbk=GHDqAOuRvGBk55NahSLHD4Y1KW9FMTV0tSj2KPLvo1k&sid=8f45b1c623d171#🔒 VL-GRPC-RLT 🇫🇷 FR-95.179.213.48:8080
-vless://42f36835-730c-4ecc-9daf-20121ae7ba47@167.82.0.103:80?type=ws&host=edge.validbv3528.ir#🔒 VL-WS-NA 🇺🇸 US-167.82.0.103:80
-vless://42f36835-730c-4ecc-9daf-20121ae7ba47@167.82.0.9:80?security=none&type=ws&host=edge.validbv3528.ir#🔒 VL-WS-NONE 🇺🇸 US-167.82.0.9:80
-vless://d603cba7-4ec4-4744-a1df-1fcbec323066@172.67.204.84:2083?security=tls&sni=gErmaNHP.Pages.dEv&type=ws&host=germanhp.pages.dev&path=/smTmVvYcksJTignq/My4xMjYuMTU5LjEy&fp=randomized&alpn=http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-172.67.204.84:2083
-vless://d603cba7-4ec4-4744-a1df-1fcbec323066@104.21.16.1:2083?security=tls&sni=gErmaNHP.Pages.dEv&type=ws&host=germanhp.pages.dev&path=%2FTELEGRAM%3A%40AZARBAYJAB1%2CTELEGRAM%3A%40AZARBAYJAB1%2CTELEGRAM%3A%40AZARBAYJAB1%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-104.21.16.1:2083
-vless://6c64e6f2-94b5-45b4-b90b-2fe959b78805@188.245.212.4:2083?security=reality&sni=refersion.com&type=grpc&fp=randomized&pbk=IXXrQcqXgzopBeSGpCO_u53keeKZaN1AoOzdyLA-Mzo&sid=11a4b6bca8#🔒 VL-GRPC-RLT 🇩🇪 DE-188.245.212.4:2083
-vless://42f36835-730c-4ecc-9daf-20121ae7ba47@167.82.0.141:80?type=ws&host=edge.validbv3528.ir#🔒 VL-WS-NA 🇺🇸 US-167.82.0.141:80
-vless://2d7c7aa5-364a-4dbb-937a-f8e4f5f73007@94.131.111.195:443?security=tls&sni=de4.connecton.surf&type=ws&path=%2Fvless&allowInsecure=1#🔒 VL-WS-TLS 🇩🇪 DE-94.131.111.195:443
-vless://0a44145f-59dc-4e5b-a233-677b97f5114c@51.81.36.78:443?security=tls&sni=147135011033.sec21org.com&type=tcp&alpn=h2,http/1.1#🔒 VL-TCP-TLS 🇺🇸 US-51.81.36.78:443
-vless://d603cba7-4ec4-4744-a1df-1fcbec323066@104.21.96.1:2083?security=tls&sni=gErmaNHP.Pages.dEv&type=ws&host=germanhp.pages.dev&path=%2FTELEGRAM%3A%40AZARBAYJAB1%2CTELEGRAM%3A%40AZARBAYJAB1%2CTELEGRAM%3A%40AZARBAYJAB1%3Fed%3D2560#🔒 VL-WS-TLS 🏴‍☠️ NA-104.21.96.1:2083
+document.getElementById('updateForm').addEventListener('submit', async function(event) {
+    event.preventDefault();
+
+    const customRepoName = document.getElementById('customRepoName').value.trim();
+    const selectedRepoName = document.getElementById('repoName').value;
+    const repoName = customRepoName || selectedRepoName;
+
+    const customFilePath = document.getElementById('customFilePath').value.trim();
+    const selectedFilePath = document.getElementById('filePath').value;
+    const filePath = customFilePath || selectedFilePath;
+
+    if (!repoName) {
+        document.getElementById('message').textContent = 'لطفاً یک نام ریپوزیتوری معتبر وارد کنید.';
+        return;
+    }
+
+    if (!filePath) {
+        document.getElementById('message').textContent = 'لطفاً یک آدرس فایل معتبر وارد کنید.';
+        return;
+    }
+
+    const token = document.getElementById('githubToken').value.trim();
+    const newContent = document.getElementById('content').value.trim();
+    const owner = 'davudsedft';
+
+    const apiUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${filePath}`;
+
+    console.log('repoName:', repoName);
+    console.log('filePath:', filePath);
+    console.log('apiUrl:', apiUrl);
+
+    try {
+        const response = await fetch(apiUrl, {
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error('خطا در دریافت فایل: ' + response.statusText);
+        }
+
+        const fileData = await response.json();
+
+        const previousContent = atob(fileData.content);
+        const updatedContent = btoa(unescape(encodeURIComponent(newContent + '\n' + previousContent)));
+
+        const updateResponse = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: `Updating ${filePath} via web form`,
+                content: updatedContent,
+                sha: fileData.sha
+            })
+        });
+
+        if (updateResponse.ok) {
+            document.getElementById('message').textContent = `${filePath} با موفقیت بروز شد!`;
+            setTimeout(() => {
+                window.location.href = window.location.href;
+            }, 2000);
+        } else {
+            const errorData = await updateResponse.json();
+            document.getElementById('message').textContent = `خطایی رخ داده است در ${filePath}: ` + errorData.message;
+        }
+    } catch (error) {
+        document.getElementById('message').textContent = `خطا: ` + error.message;
+        console.error('Error:', error);
+    }
+});
+
+document.getElementById('deleteButton').addEventListener('click', async function() {
+    if (!confirm('آیا از حذف محتویات این فایل اطمینان دارید؟')) {
+        return;
+    }
+
+    const customRepoName = document.getElementById('customRepoName').value.trim();
+    const selectedRepoName = document.getElementById('repoName').value;
+    const repoName = customRepoName || selectedRepoName;
+
+    const customFilePath = document.getElementById('customFilePath').value.trim();
+    const selectedFilePath = document.getElementById('filePath').value;
+    const filePath = customFilePath || selectedFilePath;
+
+    if (!repoName) {
+        document.getElementById('message').textContent = 'لطفاً یک نام ریپوزیتوری معتبر وارد کنید.';
+        return;
+    }
+
+    if (!filePath) {
+        document.getElementById('message').textContent = 'لطفاً یک آدرس فایل معتبر وارد کنید.';
+        return;
+    }
+
+    const token = document.getElementById('githubToken').value.trim();
+    const owner = 'davudsedft';
+
+    const apiUrl = `https://api.github.com/repos/${owner}/${repoName}/contents/${filePath}`;
+
+    console.log('repoName:', repoName);
+    console.log('filePath:', filePath);
+    console.log('apiUrl:', apiUrl);
+
+    try {
+        const response = await fetch(apiUrl, {
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json'
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error('خطا در دریافت فایل: ' + response.statusText);
+        }
+
+        const fileData = await response.json();
+
+        const updateResponse = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `token ${token}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                message: `Deleting contents of ${filePath} via web form`,
+                content: btoa(''),
+                sha: fileData.sha
+            })
+        });
+
+        if (updateResponse.ok) {
+            document.getElementById('message').textContent = `${filePath} با موفقیت حذف شد!`;
+            setTimeout(() => {
+                window.location.href = window.location.href;
+            }, 2000);
+        } else {
+            const errorData = await updateResponse.json();
+            document.getElementById('message').textContent = `خطایی رخ داده است در ${filePath}: ` + errorData.message;
+        }
+    } catch (error) {
+        document.getElementById('message').textContent = `خطا: ` + error.message;
+        console.error('Error:', error);
+    }
+});
