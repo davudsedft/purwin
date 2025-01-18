@@ -2,7 +2,7 @@ vless://78287b3f-a7f8-4ad6-8f95-3f486860591d@209.227.230.243:443?security=realit
 vless://6ea5f5b1-3d50-4c8c-b2a0-9db51f4c6c7f@194.36.55.247:4433?security=tls&sni=fawpvpcyp.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome#🔒 VL-GRPC-TLS 🇬🇧 GB-194.36.55.247:443
 vless://6ea5f5b1-3d50-4c8c-b2a0-9db51f4c6c7f@45.55.244.239:4435?security=tls&sni=fawpvpcyp.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome#🔒 VL-GRPC-TLS 🇺🇸 US-45.55.244.239:443
 vless://6ea5f5b1-3d50-4c8c-b2a0-9db51f4c6c7f@185.174.138.250:4434?security=tls&sni=fawpvpcyp.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome#🔒 VL-GRPC-TLS 🇷🇺 RU-185.174.138.250:443
-
+vless://0887afab-d8c7-5cfe-b09c-bc677ac8a907@faculty.ucdavis.edu
 vless://dfcbcaaa-1ce7-4ad4-b93b-b7b8abc000ce@[2a01:4f8:1c1b:1891::1]:443?encryption=none&security=reality&sni=gsmarena.com&serviceName=@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN,@Everyday_VPN&fp=chrome&pbk=AVesZ9rUbwnESVl0YSPs98oWmZbXlhDVjR4ssJAw6yw&sid=32d7a82d&spx=%2F&type=grpc#@Everyday_VPN | 02 🇩🇪⚡️
 vless://6ea5f5b1-3d50-4c8c-b2a0-9db51f4c6c7f@194.36.55.247:4433?security=tls&sni=fawpvpcyp.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome#🔒 VL-GRPC-TLS 🇬🇧 GB-194.36.55.247:443
 vless://6ea5f5b1-3d50-4c8c-b2a0-9db51f4c6c7f@194.36.55.247:4433?security=tls&sni=fawpvpcyp.wwtraveler.com&type=grpc&serviceName=michi&fp=chrome#🔒 VL-GRPC-TLS 🇬🇧 GB-194.36.55.247:443
