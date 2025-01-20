@@ -1,1 +1,3 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@45.87.175.157:8080#%F0%9F%87%B1%F0%9F%87%B9LT-45.87.175.157-5808
+vless://278f7e89-d3f6-5fda-b827-61fbd50403f6@faculty.ucdavis.edu:443?path=/--@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY%3Fed%3D443ed%3D2560&security=tls&host=TG.ELiV2RAY.iR&fp=randomized&type=ws&sni=faculty.ucdavis.edu#🔗 Vauth - 65
+vless://0887afab-d8c7-5cfe-b09c-bc677ac8a907@faculty.ucdavis.edu:443?path=/@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY----@ELiV2RAY%3Fed%3D443ed%3D2560&security=tls&host=ELiV2--ELENA.COM&fp=randomized&type=ws&sni=faculty.ucdavis.edu#🔗 Vauth - 66
+vless://8274a9f0-f7ed-4384-8c69-6bf8a98d19a6@103.160.204.67:443?security=tls&sni=us2_tg_fxnodes.sfacg.uk&type=ws&host=us2_tg_fxnodes.sfacg.uk&path=%2Ftg%40fxnodes%3Fed%3D2048#🔗 Vauth - 2128
