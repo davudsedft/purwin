@@ -1,3 +1,5 @@
+vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#🔒 VL-WS-TLS 🇦🇪 AE-85.237.211.219:8443
+
 vless://0416d09f-a24f-46a2-a913-b0f2be57c009@151.101.33.212:443?security=tls&sni=map.google.com&type=ws&host=aklisvpn.com&path=%2F%40aklisvpn%40aklisvpn%40aklisvpn&fp=firefox#🔒 VL-WS-TLS 🇺🇸 US-151.101.33.212:443
 vless://0c04dd79-71ad-475e-9a22-8fe625afccbb@151.101.194.228:443?security=tls&sni=faculty.ucdavis.edu&type=ws&host=jOin--Bede--mOsiV2.ir&path=%2F%40MOSIV2-%40MOSIV2-%40MOSIV2-%40MOSIV2-%40MOSIV2-%40MOSIV2%3Fed%3D2560&fp=randomized&alpn=h2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇺🇸 US-151.101.194.228:443
 vless://c4258f50-fe5d-4b6c-9f09-5a193b7d34ef@185.146.173.7:443?security=tls&sni=sinavm_sinavm.sinabigo.ir&type=ws&host=sinavm_sinavm.sinabigo.ir&path=%2F%40ln2ray%3Fed%3D2560&fp=firefox#🔒 VL-WS-TLS 🇸🇪 SE-185.146.173.7:443
