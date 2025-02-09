@@ -1,261 +1,168 @@
 {
-  "dns": {
-    "hosts": {
-      "geosite:category-ads-all": "127.0.0.1",
-      "domain:googleapis.cn": "googleapis.com",
-      "dns.alidns.com": [
-        "223.5.5.5",
-        "223.6.6.6",
-        "2400:3200::1",
-        "2400:3200:baba::1"
-      ],
-      "one.one.one.one": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "dot.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ],
-      "dns.quad9.net": [
-        "9.9.9.9",
-        "149.112.112.112",
-        "2620:fe::fe",
-        "2620:fe::9"
-      ],
-      "common.dot.dns.yandex.net": [
-        "77.88.8.8",
-        "77.88.8.1",
-        "2a02:6b8::feed:0ff",
-        "2a02:6b8:0:1::feed:0ff"
-      ]
-    },
-    "servers": [
-      "1.1.1.1",
-      {
-        "address": "1.1.1.1",
-        "domains": [
-          "domain:googleapis.cn",
-          "domain:gstatic.com"
-        ]
-      },
-      {
-        "address": "223.5.5.5",
-        "domains": [
-          "domain:alidns.com",
-          "domain:doh.pub",
-          "domain:dot.pub",
-          "domain:360.cn",
-          "domain:onedns.net",
-          "geosite:cn"
-        ],
-        "expectIPs": [
-          "geoip:cn"
-        ],
-        "skipFallback": true
-      }
-    ]
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
   },
   "inbounds": [
     {
-      "listen": "127.0.0.1",
+      "tag": "socks",
       "port": 10808,
+      "listen": "127.0.0.1",
       "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
       "sniffing": {
+        "enabled": true,
         "destOverride": [
           "http",
           "tls"
-        ],
-        "enabled": true,
-        "routeOnly": false
+        ]
       },
-      "tag": "socks"
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "allowTransparent": false
+      }
     }
   ],
-  "log": {
-    "loglevel": "warning"
-  },
   "outbounds": [
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "wireguard",
+      "tag": "proxy",
+      "protocol": "vless",
       "settings": {
-        "address": [
-          "172.16.0.2/32"
-        ],
-        "mtu": 1420,
-        "peers": [
+        "vnext": [
           {
-            "endpoint": "162.159.195.53:5956",
-            "preSharedKey": "",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            "address": "185.146.173.7",
+            "port": 443,
+            "users": [
+              {
+                "id": "c4258f50-fe5d-4b6c-9f09-5a193b7d34ef",
+                "alterId": 0,
+                "email": "t@t.tt",
+                "security": "auto",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
           }
-        ],
-        "reserved": [
-          116,
-          253,
-          37
-        ],
-        "secretKey": "2PQpxNVbIIejJTtaos/Z7IbWNjc426XhAJGiqNCtvkE="
+        ]
       },
-      "tag": "proxy"
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "serverName": "sinavm_sinavm.sinabigo.ir"
+        },
+        "wsSettings": {
+          "path": "/@ln2ray?ed=2560",
+          "headers": {
+            "Host": "sinavm_sinavm.sinabigo.ir"
+          }
+        }
+      },
+      "mux": {
+        "enabled": false,
+        "concurrency": -1
+      }
     },
     {
+      "tag": "direct",
       "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
-      "tag": "direct"
+      "settings": {}
     },
     {
+      "tag": "block",
       "protocol": "blackhole",
       "settings": {
         "response": {
           "type": "http"
         }
-      },
-      "tag": "block"
+      }
     }
   ],
-  "remarks": "hsjs",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "ip": [
-          "1.1.1.1"
+        "type": "field",
+        "inboundTag": [
+          "api"
         ],
-        "outboundTag": "proxy",
-        "port": "53",
-        "type": "field"
+        "outboundTag": "api",
+        "enabled": true
       },
       {
-        "ip": [
-          "223.5.5.5"
-        ],
+        "type": "field",
         "outboundTag": "direct",
-        "port": "53",
-        "type": "field"
-      },
-      {
         "domain": [
-          "domain:googleapis.cn",
-          "domain:gstatic.com"
+          "domain:purnet.ir",
+          "domain:ikcosales.ir",
+          "domain:film2media.com",
+          "domain:zarinpal.com",
+          "domain:shaparak.ir"
         ],
-        "outboundTag": "proxy",
-        "type": "field"
+        "enabled": true
       },
       {
-        "network": "udp",
+        "type": "field",
         "outboundTag": "block",
-        "port": "443",
-        "type": "field"
-      },
-      {
         "domain": [
           "geosite:category-ads-all"
         ],
-        "outboundTag": "block",
-        "type": "field"
+        "enabled": true
       },
       {
-        "ip": [
-          "geoip:private"
-        ],
+        "type": "field",
         "outboundTag": "direct",
-        "type": "field"
-      },
-      {
         "domain": [
-          "geosite:private"
+          "domain:purnet.ir",
+          "domain:ikcosales.ir",
+          "domain:film2media.com",
+          "domain:zarinpal.com",
+          "domain:shaparak.ir"
         ],
-        "outboundTag": "direct",
-        "type": "field"
+        "enabled": true
       },
       {
+        "type": "field",
+        "outboundTag": "direct",
         "ip": [
-          "223.5.5.5",
-          "223.6.6.6",
-          "2400:3200::1",
-          "2400:3200:baba::1",
-          "119.29.29.29",
-          "1.12.12.12",
-          "120.53.53.53",
-          "2402:4e00::",
-          "2402:4e00:1::",
-          "180.76.76.76",
-          "2400:da00::6666",
-          "114.114.114.114",
-          "114.114.115.115",
-          "114.114.114.119",
-          "114.114.115.119",
-          "114.114.114.110",
-          "114.114.115.110",
-          "180.184.1.1",
-          "180.184.2.2",
-          "101.226.4.6",
-          "218.30.118.6",
-          "123.125.81.6",
-          "140.207.198.6",
-          "1.2.4.8",
-          "210.2.4.8",
-          "52.80.66.66",
-          "117.50.22.22",
-          "2400:7fc0:849e:200::4",
-          "2404:c2c0:85d8:901::4",
-          "117.50.10.10",
-          "52.80.52.52",
-          "2400:7fc0:849e:200::8",
-          "2404:c2c0:85d8:901::8",
-          "117.50.60.30",
-          "52.80.60.30"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "domain:alidns.com",
-          "domain:doh.pub",
-          "domain:dot.pub",
-          "domain:360.cn",
-          "domain:onedns.net"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
+          "geoip:private",
           "geoip:cn"
         ],
-        "outboundTag": "direct",
-        "type": "field"
+        "enabled": true
       },
       {
-        "domain": [
-          "geosite:cn"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
       }
+    ]
+  },
+  "dns": {
+    "servers": [
+      "localhost",
+      "8.8.8.8",
+      "1.1.1.1"
     ]
   }
 }
