@@ -1,4 +1,7 @@
 vless://36b000c5-1e99-439c-8152-1e77530a171e@151.101.2.133:443?encryption=none&security=tls&sni=live.wkrq.com&type=ws&host=peacefulpigs.ir&path=%2Fdownloader#TG%3A%40v2ray_sub
+vless://ab6bdeaa-b7eb-44d5-841c-ea4ca3ed8d32@hajlab.ucdavis.edu:443?path=%2F&security=tls&encryption=none&host=wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net&fp=chrome&type=ws&sni=hajlab.ucdavis.edu#telegram🚀DailyV2ry
+vless://046fd332-80a6-43b0-91b0-7238a1dfc36c@199.232.214.133:443?security=tls&sni=wear.net&type=ws&host=aw035.ir&path=%2F%3Fed%3DMARAMBASHI_MARAMBASHI%2F%3Fed%3D2560#🔒 VL-WS-TLS 🇺🇸 US-199.232.214.133:443
+
 
 vless://69dd9741-0ae4-4bd2-bb32-46ca96d05128@cdncdncdn.aikunapp.com:443/?type=ws&encryption=none&host=cdn-ca.sm-node.com&path=%2Fvless_ws%2Fsmjc%2Findex%3Fed%3D8192&security=tls&sni=r-Vl1JFQdH165ohNhL.sm-node.com&fp=chrome&packetEncoding=xudp#%F0%9F%8E%B212%40oneclickvpnkeys
 vless://c4258f50-fe5d-4b6c-9f09-5a193b7d34ef@185.146.173.7:443?security=tls&sni=sinavm_sinavm.sinabigo.ir&type=ws&host=sinavm_sinavm.sinabigo.ir&path=%2F%40ln2ray%3Fed%3D2560&fp=firefox#🔒 VL-WS-TLS 🇸🇪 SE-185.146.173.7:443
