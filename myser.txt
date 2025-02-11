@@ -1,3 +1,6 @@
+vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#🔒 VL-WS-TLS 🇦🇪 AE-85.237.211.219:8443
+vless://046fd332-80a6-43b0-91b0-7238a1dfc36c@199.232.214.133:443?security=tls&sni=wear.net&type=ws&host=aw035.ir&path=%2F%3Fed%3DMARAMBASHI_MARAMBASHI%2F%3Fed%3D2560#🔒 VL-WS-TLS 🇺🇸 US-199.232.214.133:443
+
 vless://36b000c5-1e99-439c-8152-1e77530a171e@151.101.2.133:443?encryption=none&security=tls&sni=live.wkrq.com&type=ws&host=peacefulpigs.ir&path=%2Fdownloader#TG%3A%40v2ray_sub
 vless://ab6bdeaa-b7eb-44d5-841c-ea4ca3ed8d32@hajlab.ucdavis.edu:443?path=%2F&security=tls&encryption=none&host=wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v01.feadlenetworkv2sa.net&fp=chrome&type=ws&sni=hajlab.ucdavis.edu#telegram🚀DailyV2ry
 vless://046fd332-80a6-43b0-91b0-7238a1dfc36c@199.232.214.133:443?security=tls&sni=wear.net&type=ws&host=aw035.ir&path=%2F%3Fed%3DMARAMBASHI_MARAMBASHI%2F%3Fed%3D2560#🔒 VL-WS-TLS 🇺🇸 US-199.232.214.133:443
