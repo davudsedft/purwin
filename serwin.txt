@@ -1,1 +1,1 @@
-trojan://purnet@889dfe43.trojan-3pj.pages.dev:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&host=889dfe43.trojan-3pj.pages.dev&fp=randomized&type=ws&sni=889dfe43.trojan-3pj.pages.dev#epeius
+trojan://3747000103274291200@54.247.103.58:443?allowInsecure=0&sni=living-adder.adder289.quest#%F0%9F%87%AE%F0%9F%87%AA%20%E7%88%B1%E5%B0%94%E5%85%B0%20V2CROSS.COM
