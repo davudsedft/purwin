@@ -1,124 +1,150 @@
-#!/bin/bash
-
-# بررسی ورودی
-if [ -z "$1" ]; then
-  echo "❌ لطفاً لینک سرور را وارد کنید!"
-  echo "✅ مثال:"
-  echo "./convert.sh 'vless://UUID@server:port?security=none&type=grpc&serviceName=service'"
-  exit 1
-fi
-
-# دریافت لینک از ورودی
-LINK=$1
-
-# بررسی نوع لینک
-if [[ $LINK == vless://* ]]; then
-  TYPE="vless"
-  UUID=$(echo $LINK | sed -n 's#vless://\([^@]*\)@.*#\1#p')
-  SERVER=$(echo $LINK | sed -n 's#vless://[^@]*@\([^:]*\):.*#\1#p')
-  PORT=$(echo $LINK | sed -n 's#vless://[^@]*@[^:]*:\([^?]*\)?.*#\1#p')
-  STREAM_TYPE=$(echo $LINK | sed -n 's#.*type=\([^&]*\).*#\1#p')
-  SERVICE_NAME=$(echo $LINK | sed -n 's#.*serviceName=\([^&]*\).*#\1#p')
-  
-  STREAM_SETTINGS="{
-        \"network\": \"$STREAM_TYPE\",
-        \"security\": \"none\""
-
-  if [ "$STREAM_TYPE" == "grpc" ]; then
-    STREAM_SETTINGS+=", \"grpcSettings\": { \"serviceName\": \"$SERVICE_NAME\" }"
-  fi
-
-  STREAM_SETTINGS+=" }"
-
-elif [[ $LINK == vmess://* ]]; then
-  TYPE="vmess"
-  VMESS_JSON=$(echo $LINK | sed 's#vmess://##' | base64 -d 2>/dev/null)
-  UUID=$(echo $VMESS_JSON | jq -r .id)
-  SERVER=$(echo $VMESS_JSON | jq -r .add)
-  PORT=$(echo $VMESS_JSON | jq -r .port)
-  STREAM_TYPE=$(echo $VMESS_JSON | jq -r .net)
-
-  STREAM_SETTINGS="{
-        \"network\": \"$STREAM_TYPE\",
-        \"security\": \"none\"
-  }"
-
-elif [[ $LINK == ss://* ]]; then
-  TYPE="shadowsocks"
-  SS_INFO=$(echo $LINK | sed 's#ss://##' | base64 -d 2>/dev/null)
-  METHOD=$(echo $SS_INFO | awk -F ':' '{print $1}')
-  PASSWORD=$(echo $SS_INFO | awk -F '@' '{print $1}' | cut -d ':' -f2)
-  SERVER=$(echo $SS_INFO | awk -F '@' '{print $2}' | awk -F ':' '{print $1}')
-  PORT=$(echo $SS_INFO | awk -F ':' '{print $3}')
-
-  STREAM_SETTINGS="{
-        \"network\": \"tcp\",
-        \"security\": \"none\"
-  }"
-
-elif [[ $LINK == trojan://* ]]; then
-  TYPE="trojan"
-  PASSWORD=$(echo $LINK | sed -n 's#trojan://\([^@]*\)@.*#\1#p')
-  SERVER=$(echo $LINK | sed -n 's#trojan://[^@]*@\([^:]*\):.*#\1#p')
-  PORT=$(echo $LINK | sed -n 's#trojan://[^@]*@[^:]*:\([^?]*\)?.*#\1#p')
-
-  STREAM_SETTINGS="{
-        \"network\": \"tcp\",
-        \"security\": \"tls\"
-  }"
-
-else
-  echo "❌ فرمت لینک پشتیبانی نمی‌شود!"
-  exit 1
-fi
-
-# تولید فایل JSON
-cat > config.json <<EOF
 {
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning"
+  },
   "inbounds": [
     {
+      "tag": "socks",
       "port": 10808,
+      "listen": "127.0.0.1",
       "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
       "settings": {
         "auth": "noauth",
-        "udp": true
+        "udp": true,
+        "allowTransparent": false
       }
     },
     {
+      "tag": "http",
       "port": 10809,
+      "listen": "127.0.0.1",
       "protocol": "http",
+      "sniffing": {
+        "enabled": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
       "settings": {
+        "auth": "noauth",
+        "udp": true,
         "allowTransparent": false
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "$TYPE",
-      "settings": {
-        "vnext": [
+  "protocol": "vless",
+  "sendThrough": "0.0.0.0",
+  "settings": {
+    "vnext": [
+      {
+        "address": "66.235.200.149",
+        "port": 80,
+        "users": [
           {
-            "address": "$SERVER",
-            "port": $PORT,
-            "users": [
-              {
-                "id": "$UUID",
-                "password": "$PASSWORD",
-                "method": "$METHOD",
-                "encryption": "none"
-              }
-            ]
+            "encryption": "none",
+            "flow": "",
+            "id": "e497da22-d020-40fb-a1fa-bc294066a2d2"
           }
         ]
+      }
+    ]
+  },
+  "streamSettings": {
+    "network": "ws",
+    "security": "none",
+    "wsSettings": {
+      "headers": {
+        "Host": "pormang.webhost99.workers.dev"
       },
-      "streamSettings": $STREAM_SETTINGS
+      "path": "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1"
     }
-  ]
+  },
+  "tag": "proxy"
+},
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {}
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    }
+  ],
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "api"
+        ],
+        "outboundTag": "api",
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:purnet.ir"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "outboundTag": "block",
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "domain": [
+          "domain:purnet.ir"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "outboundTag": "direct",
+        "ip": [
+          "geoip:private",
+          "geoip:cn"
+        ],
+        "enabled": true
+      },
+      {
+        "type": "field",
+        "port": "0-65535",
+        "outboundTag": "proxy",
+        "enabled": true
+      }
+    ]
+  },
+  "dns": {
+    "servers": [
+      "localhost",
+      "8.8.8.8",
+      "1.1.1.1"
+    ]
+  }
 }
-EOF
-
-echo "✅ فایل config.json ساخته شد!"
-
-# اجرای Xray
-echo "🚀 اجرای Xray..."
-xray -c config.json
