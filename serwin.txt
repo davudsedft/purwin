@@ -1,1 +1,1 @@
-hysteria2://4e9ee29b39a28277@[2001:19f0:1000:20d0:5400:5ff:fe19:3ba9]:443?security=tls&obfs=salamander&obfs-password=13f7ba5f&insecure=1&sni=%5B2001%3A19f0%3A1000%3A20d0%3A5400%3A5ff%3Afe19%3A3ba9%5D#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-%5B2001%3A19f0%3A1000%3A20d0%3A5400%3A5ff%3Afe19%3A3ba9%5D%3A443
+trojan://1L6WQv%26%3CV6NiGfP4@172.66.44.240:443?path=%2FtrswxL0ep1Sj8SjXCR%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&host=7f3b9bb5.newhoosh.pages.dev&fp=randomized&type=ws&sni=7F3B9bB5.NeWhOoSh.pAgES.dEV#hjhj
