@@ -1,3 +1,32 @@
+#!/bin/bash
+
+# دریافت لینک ورودی
+INPUT_LINK=$1
+
+# بررسی اینکه لینک خالی نباشد
+if [ -z "$INPUT_LINK" ]; then
+    echo "Usage: $0 <vless://... or vmess://... or ss://... or trojan://...>"
+    exit 1
+fi
+
+# استخراج اطلاعات از لینک VLESS
+PROTOCOL=$(echo "$INPUT_LINK" | awk -F'://' '{print $1}')
+UUID=$(echo "$INPUT_LINK" | awk -F'[@:]' '{print $2}')
+ADDRESS=$(echo "$INPUT_LINK" | awk -F'[@:?]' '{print $3}')
+PORT=$(echo "$INPUT_LINK" | awk -F'[@:?]' '{print $4}')
+NETWORK_TYPE=$(echo "$INPUT_LINK" | grep -oE 'type=[a-zA-Z]+' | cut -d'=' -f2)
+SECURITY=$(echo "$INPUT_LINK" | grep -oE 'security=[a-zA-Z]+' | cut -d'=' -f2)
+PATH=$(echo "$INPUT_LINK" | grep -oE 'path=[^&]+' | cut -d'=' -f2 | sed 's/%2F/\//g' | sed 's/%3A/:/g' | sed 's/%40/@/g' | sed 's/%20/ /g')
+HOST=$(echo "$INPUT_LINK" | grep -oE 'Host=[^&]+' | cut -d'=' -f2)
+
+# تنظیم مقادیر پیش‌فرض در صورت عدم وجود
+[ -z "$NETWORK_TYPE" ] && NETWORK_TYPE="tcp"
+[ -z "$SECURITY" ] && SECURITY="none"
+[ -z "$PATH" ] && PATH="/"
+[ -z "$HOST" ] && HOST="$ADDRESS"
+
+# تولید JSON خروجی و ذخیره در فایل
+cat <<EOF > config.json
 {
   "log": {
     "access": "",
@@ -10,17 +39,9 @@
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ]
-      },
       "settings": {
         "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
+        "udp": true
       }
     },
     {
@@ -28,123 +49,43 @@
       "port": 10809,
       "listen": "127.0.0.1",
       "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls"
-        ]
-      },
       "settings": {
         "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
+        "udp": true
       }
     }
   ],
   "outbounds": [
     {
-  "protocol": "vless",
-  "sendThrough": "0.0.0.0",
-  "settings": {
-    "vnext": [
-      {
-        "address": "66.235.200.149",
-        "port": 80,
-        "users": [
+      "protocol": "$PROTOCOL",
+      "settings": {
+        "vnext": [
           {
-            "encryption": "none",
-            "flow": "",
-            "id": "e497da22-d020-40fb-a1fa-bc294066a2d2"
+            "address": "$ADDRESS",
+            "port": $PORT,
+            "users": [
+              {
+                "id": "$UUID",
+                "encryption": "none"
+              }
+            ]
           }
         ]
-      }
-    ]
-  },
-  "streamSettings": {
-    "network": "ws",
-    "security": "none",
-    "wsSettings": {
-      "headers": {
-        "Host": "pormang.webhost99.workers.dev"
       },
-      "path": "/@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1"
-    }
-  },
-  "tag": "proxy"
-},
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {}
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
+      "streamSettings": {
+        "network": "$NETWORK_TYPE",
+        "security": "$SECURITY",
+        "wsSettings": {
+          "path": "$PATH",
+          "headers": {
+            "Host": "$HOST"
+          }
         }
-      }
+      },
+      "tag": "proxy"
     }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "inboundTag": [
-          "api"
-        ],
-        "outboundTag": "api",
-        "enabled": true
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:purnet.ir"
-        ],
-        "enabled": true
-      },
-      {
-        "type": "field",
-        "outboundTag": "block",
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "enabled": true
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "domain": [
-          "domain:purnet.ir"
-        ],
-        "enabled": true
-      },
-      {
-        "type": "field",
-        "outboundTag": "direct",
-        "ip": [
-          "geoip:private",
-          "geoip:cn"
-        ],
-        "enabled": true
-      },
-      {
-        "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy",
-        "enabled": true
-      }
-    ]
-  },
-  "dns": {
-    "servers": [
-      "localhost",
-      "8.8.8.8",
-      "1.1.1.1"
-    ]
-  }
+  ]
 }
+EOF
+
+./xray -config config.json
