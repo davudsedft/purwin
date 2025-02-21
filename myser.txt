@@ -1,3 +1,5 @@
+vless://89b3cbba-e6ac-485a-9481-976a0415eab9@185.146.173.39:2083?security=tls&sni=hAstI.freeAIrLAINEs.coM&type=ws&host=HASTI.fREEAIrLAINeS.Com&path=%2FFKnSNrPXVx6punGp%3Fed%3D2048&fp=chrome#🔒 VL-WS-TLS 🇸🇪 SE-185.146.173.39:2083
+
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@18.171.255.248:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇬🇧 GB-18.171.255.248:22222
 vless://89b3cbba-e6ac-485a-9481-976a0415eab9@www.speedtest.net:2083?path=%2FG9WiaAeAdacfio6X%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&host=HaSTI.fReeAIrLAINes.COm&fp=randomized&type=ws&sni=hAsTi.frEEairLainEs.Com#[🇨🇦]t.me/ConfigsHub`
 vless://8c65262b-5f3b-4476-bf5b-094f9817c21d@zula.ir:8443?encryption=none&security=tls&sni=foodrover.ir&alpn=h2%2Chttp%2F1.1&fp=firefox&type=ws&host=foodrover.ir.&path=%2F#[🇨🇦]t.me/ConfigsHub`
