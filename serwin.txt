@@ -1,1 +1,3 @@
-trojan://1L6WQv%26%3CV6NiGfP4@172.66.44.240:443?path=%2FtrswxL0ep1Sj8SjXCR%3Fed%3D2560&security=tls&alpn=h2%2Chttp%2F1.1&host=7f3b9bb5.newhoosh.pages.dev&fp=randomized&type=ws&sni=7F3B9bB5.NeWhOoSh.pAgES.dEV#hjhj
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@54.155.245.159:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇮🇪 IE-54.155.245.159:22222
+vless://04c76e86-2702-e786-a826-ce73de558e03@167.82.231.255:443?security=tls&sni=google.com&type=ws&host=www.digiato.com&path=/home?id%3D10&fp=safari&alpn=h2,http/1.1#🔒 VL-WS-TLS 🇩🇪 DE-167.82.231.255:443
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@35.181.192.188:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇫🇷 FR-35.181.192.188:22222
