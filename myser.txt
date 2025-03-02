@@ -1,11 +1,7 @@
+vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@83.229.123.36:8443?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed#🔒 VL-WS-TLS 🇭🇰 HK-83.229.123.36:8443
+vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.158:443?security=tls&sni=hdfyreplace3.parthianempire.org&type=ws&host=hdfyreplace3.parthianempire.org&path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9#🔒 VL-WS-TLS 🇰🇿 KZ-194.76.18.158:443
+vless://0416d09f-a24f-46a2-a913-b0f2be57c009@151.101.33.212:443?security=tls&sni=map.google.com&type=ws&host=aklisvpn.com&path=%2F%40aklisvpn%40aklisvpn%40aklisvpn&fp=firefox#🔒 VL-WS-TLS 🇺🇸 US-151.101.33.212:443
 vless://2f7d96b3-ea62-4081-b337-8d3b6c3771f7@57.129.41.216:8443?path=%2Fvless%2F&security=tls&encryption=none&type=ws&sni=ov-germany1.09vpn.com#[🇩🇪]t.me/ConfigsHub`
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.21.212.1:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇸🇪 SE-51.21.212.1:22222
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@13.49.252.212:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇸🇪 SE-13.49.252.212:22222
-vless://a142faf1-7898-450f-bea6-5e3dbe20fdb5@dd2.atelienaderr.ir:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=dd2.atelienaderr.ir&fp=chrome&type=ws&sni=dd2.atelienaderr.ir#@meli_proxyy
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.59.36.220:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇩🇪 DE-52.59.36.220:22222
-vless://a142faf1-7898-450f-bea6-5e3dbe20fdb5@91.107.141.34:443?security=tls&sni=dd2.atelienaderr.ir&type=ws&host=dd2.atelienaderr.ir&path=%2F&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1#🔒 VL-WS-TLS 🇩🇪 DE-91.107.141.34:443
+vless://2f7d96b3-ea62-4081-b337-8d3b6c3771f7@57.129.41.216:8443?security=tls&sni=ov-germany1.09vpn.com&type=ws&path=/vless/#🔒 VL-WS-TLS 🇩🇪 DE-57.129.41.216:8443
 vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?path=%2Fvless%2F&security=tls&encryption=none&type=ws&sni=ul-uae2.09vpn.com#[🇹🇷]t.me/ConfigsHub`
-vless://b529971c-f46a-4eb9-a02d-e39cc3e83cf5@dd8.transitkala.com:443?path=%2F&security=tls&encryption=none&host=dd8.transitkala.com&type=ws&sni=dd8.transitkala.com#[🇩🇪]t.me/ConfigsHub`
-vless://a142faf1-7898-450f-bea6-5e3dbe20fdb5@dd2.atelienaderr.ir:443?path=%2F&security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&encryption=none&host=dd2.atelienaderr.ir&fp=chrome&type=ws&sni=dd2.atelienaderr.ir#[🇩🇪]t.me/ConfigsHub`
-vless://b529971c-f46a-4eb9-a02d-e39cc3e83cf5@91.107.132.67:443?security=tls&sni=dd8.transitkala.com&type=ws&host=dd8.transitkala.com&path=%2F#🔒 VL-WS-TLS 🇩🇪 DE-91.107.132.67:443
 vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#🔒 VL-WS-TLS 🇦🇪 AE-85.237.211.219:8443
