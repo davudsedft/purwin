@@ -1,0 +1,1 @@
+hysteria2://sysadmin.sysadmin@165.1.76.128:444?security=tls&insecure=1&sni=mg1.wtn.wang#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-165.1.76.128%3A444
