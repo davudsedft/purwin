@@ -1,1 +1,1 @@
-
+hysteria2://999fe97a-5cd1-4f9f-9826-85db2b50a6ef@141.147.67.135:8899?security=tls&insecure=0&sni=yingguo1.su8.lol#%F0%9F%94%92+HYSTERIA-UDP+%F0%9F%87%AC%F0%9F%87%A7+GB-141.147.67.135%3A8899
