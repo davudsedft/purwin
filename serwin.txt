@@ -3,6 +3,10 @@
     "hosts": {
       "geosite:category-ads-all": "127.0.0.1",
       "domain:googleapis.cn": "googleapis.com",
+      "dns.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
       "dns.alidns.com": [
         "223.5.5.5",
         "223.6.6.6",
@@ -15,27 +19,11 @@
         "2606:4700:4700::1111",
         "2606:4700:4700::1001"
       ],
-      "dot.pub": [
-        "1.12.12.12",
-        "120.53.53.53"
-      ],
       "dns.google": [
         "8.8.8.8",
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
-      ],
-      "dns.quad9.net": [
-        "9.9.9.9",
-        "149.112.112.112",
-        "2620:fe::fe",
-        "2620:fe::9"
-      ],
-      "common.dot.dns.yandex.net": [
-        "77.88.8.8",
-        "77.88.8.1",
-        "2a02:6b8::feed:0ff",
-        "2a02:6b8:0:1::feed:0ff"
       ]
     },
     "servers": [
@@ -45,22 +33,24 @@
         "domains": [
           "domain:googleapis.cn",
           "domain:gstatic.com"
-        ]
+        ],
+        "port": 53
       },
       {
         "address": "223.5.5.5",
         "domains": [
-          "domain:alidns.com",
+          "domain:dns.alidns.com",
           "domain:doh.pub",
           "domain:dot.pub",
-          "domain:360.cn",
-          "domain:onedns.net",
-          "geosite:cn"
+          "domain:doh.360.cn",
+          "domain:dot.360.cn",
+          "geosite:cn",
+          "geosite:geolocation-cn"
         ],
         "expectIPs": [
           "geoip:cn"
         ],
-        "skipFallback": true
+        "port": 53
       }
     ]
   },
@@ -83,6 +73,15 @@
         "routeOnly": false
       },
       "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
     }
   ],
   "log": {
@@ -96,25 +95,34 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "wireguard",
+      "protocol": "vless",
       "settings": {
-        "address": [
-          "172.16.0.2/32"
-        ],
-        "mtu": 1280,
-        "peers": [
+        "vnext": [
           {
-            "endpoint": "188.114.98.42:4198",
-            "preSharedKey": "",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+            "address": "95.164.46.39",
+            "port": 2052,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "93c5b02e-13e7-5e14-955c-9dd12a60c2db",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
           }
-        ],
-        "reserved": [
-          165,
-          150,
-          203
-        ],
-        "secretKey": "sGsUrQZ0hvhaJQUbncHeDhLy+laQIQRy81gMBOdTHVo="
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "authority": "",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": "vless-grpc"
+        },
+        "network": "grpc",
+        "security": ""
       },
       "tag": "proxy"
     },
@@ -135,7 +143,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "Warp",
+  "remarks": "🔒 VL-GRPC-NA 🇮🇹 IT-95.164.46.39:2052",
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
@@ -192,58 +200,25 @@
       },
       {
         "ip": [
-          "223.5.5.5",
-          "223.6.6.6",
-          "2400:3200::1",
-          "2400:3200:baba::1",
-          "119.29.29.29",
-          "1.12.12.12",
-          "120.53.53.53",
-          "2402:4e00::",
-          "2402:4e00:1::",
-          "180.76.76.76",
-          "2400:da00::6666",
-          "114.114.114.114",
-          "114.114.115.115",
-          "114.114.114.119",
-          "114.114.115.119",
-          "114.114.114.110",
-          "114.114.115.110",
-          "180.184.1.1",
-          "180.184.2.2",
-          "101.226.4.6",
-          "218.30.118.6",
-          "123.125.81.6",
-          "140.207.198.6",
-          "1.2.4.8",
-          "210.2.4.8",
-          "52.80.66.66",
-          "117.50.22.22",
-          "2400:7fc0:849e:200::4",
-          "2404:c2c0:85d8:901::4",
-          "117.50.10.10",
-          "52.80.52.52",
-          "2400:7fc0:849e:200::8",
-          "2404:c2c0:85d8:901::8",
-          "117.50.60.30",
-          "52.80.60.30"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "domain:alidns.com",
-          "domain:doh.pub",
-          "domain:dot.pub",
-          "domain:360.cn",
-          "domain:onedns.net"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
+          "223.5.5.5/32",
+          "223.6.6.6/32",
+          "2400:3200::1/128",
+          "2400:3200:baba::1/128",
+          "119.29.29.29/32",
+          "1.12.12.12/32",
+          "120.53.53.53/32",
+          "2402:4e00::/128",
+          "2402:4e00:1::/128",
+          "180.76.76.76/32",
+          "2400:da00::6666/128",
+          "114.114.114.114/32",
+          "114.114.115.115/32",
+          "180.184.1.1/32",
+          "180.184.2.2/32",
+          "101.226.4.6/32",
+          "218.30.118.6/32",
+          "123.125.81.6/32",
+          "140.207.198.6/32",
           "geoip:cn"
         ],
         "outboundTag": "direct",
@@ -251,9 +226,20 @@
       },
       {
         "domain": [
-          "geosite:cn"
+          "domain:dns.alidns.com",
+          "domain:doh.pub",
+          "domain:dot.pub",
+          "domain:doh.360.cn",
+          "domain:dot.360.cn",
+          "geosite:cn",
+          "geosite:geolocation-cn"
         ],
         "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "outboundTag": "proxy",
+        "port": "0-65535",
         "type": "field"
       }
     ]
