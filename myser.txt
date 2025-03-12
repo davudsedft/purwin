@@ -1,32 +1,151 @@
-vless://d342d11e-d424-4583-b36e-524ab1f0afa4@199.34.228.48:443?security=tls&sni=a.xn--i-sx6a60i.us.kg&type=ws&host=a.xn--i-sx6a60i.us.kg&path=%2F%3Fed%3D2560&allowInsecure=1#4Kian-7766
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@185.193.30.172:443?security=tls&sni=powerpow.wfft.ir&type=ws&host=powerpow.wfft.ir&path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&fp=random&alpn=h2%2Chttp%2F1.1#4Kian-6799
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.48.61:2083?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed#4Kian-7625
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.49.136:443?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed&fp=chrome#4Kian-7626
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.49.209:2087?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&host=ngedc.ambercc.filegear-sg.me&path=%2F%3Fed%3D2560#4Kian-7627
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.49.224:8443?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed&fp=chrome#4Kian-7628
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.49.74:2087?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed#4Kian-7629
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@38.180.29.115:443?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed&fp=chrome#4Kian-7630
-vless://d028d7ab-4d81-4be8-838b-fd081bb1a5ba@151.101.194.228:443?security=tls&sni=lactation.ucdavis.edu&type=ws&host=speedtest.net.ftp.debian.org.1.2.3.a.s.m.kkkkkkk.netspeedtest.net.ukwa.njsdl.ir&path=/vless&fp=chrome&alpn=h2,http/1.1#4Kian-7650
-vless://caeb576d-bcb1-4aa8-8b97-2f3846a2968d@85.133.237.89:2087?security=tls&sni=dns.tron2tron.ir&type=ws&path=/inboundsCWNeRzWFjgWHWZFw?ed&fp=chrome#4Kian-7556
-vless://cf3df05c-bb63-427a-b48a-d8b1d9ada2c4@27.50.48.115:2087?security=tls&sni=ngedc.ambercc.filegear-sg.me&type=ws&path=%2F%3Fed&fp=chrome#4Kian-7623
-vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@www.speedtest.net:443?encryption=none&security=tls&sni=reDfree8w.pooriam.Ir&type=ws&host=reDfree8w.pooriam.Ir&path=%2F#4Kian-6371
-vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#4Kian-6788
-vless://9900e8bb-d01b-42a6-ba16-17f958fa0b6c@199.34.228.71:2096?security=tls&sni=bEAt.MIRaclETaxbiTS.Top.&type=ws&path=/2096/@VRayyNGvpn#4Kian-7147
-vless://9900e8bb-d01b-42a6-ba16-17f958fa0b6c@92.53.190.149:2096?security=tls&sni=bEAt.MIRaclETaxbiTS.Top.&type=ws&path=/2096/@VRayyNGvpn#4Kian-7151
-vless://c7d543af-1023-4b96-a698-187c190d3f4c@nautica.foolvpn.me:443?encryption=none&security=tls&sni=nautica.foolvpn.me&type=ws&host=nautica.foolvpn.me&path=%2F47.89.39.186-39251#4Kian-7538
-vless://d99749f3-2e63-40f8-b461-5ca4d2ad952a@2.56.173.227:443?security=tls&sni=blog.demo98.ir&type=ws&host=blog.demo98.ir&path=%2Fwp-admin%3Fed%3D1024&fp=chrome&alpn=h2%2Chttp%2F1.1#4Kian-7828
-
-vless://BA88EA98-45F3-4749-ADC5-EA58CAD37264@50.7.85.221:443?security=tls&sni=telegram-irn-vpn.tgtyosvp.workers.dev&type=ws&host=telegram-irn-vpn.tgtyosvp.workers.dev&path=%2F@%2B@IRN_VPN#🔒 VL-WS-TLS 🇩🇪 DE-50.7.85.221:443
-vless://780161d1-a345-45d4-96fb-c2c4b88bf151@185.238.228.33:443?security=tls&sni=dd.gevom47953.workers.dev&type=ws&host=dd.gevom47953.workers.dev&path=%2F&fp=chrome#🔒 VL-WS-TLS 🇪🇸 ES-185.238.228.33:443
-vless://465fc43c-9872-40f9-bb94-ebee934e40b4@23.227.38.135:443?security=tls&sni=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&type=ws&host=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&path=%2F#🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.135:443
-vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.158:443?security=tls&sni=hdfyreplace3.parthianempire.org&type=ws&host=hdfyreplace3.parthianempire.org&path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9#🔒 VL-WS-TLS 🇰🇿 KZ-194.76.18.158:443
-vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#🔒 VL-WS-TLS 🇦🇪 AE-85.237.211.219:8443
-vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@160.153.0.183:8443?security=tls&sni=HdWyNdJd78.kHoSgElBaLaToChIpAs-nAdIdAmEt.cOm&type=ws&host=HdWyNdJd78.kHoSgElBaLaToChIpAs-nAdIdAmEt.cOm&path=/#🔒 VL-WS-TLS 🇺🇸 US-160.153.0.183:8443
-vless://8b54a6c7-2544-4a07-9520-b4e5252ba2b7@89.187.28.126:8443?security=tls&sni=ul-japan1.09vpn.com&type=ws&path=/vless/&allowInsecure=1#🔒 VL-WS-TLS 🇯🇵 JP-89.187.28.126:8443
-vless://6f995056-7802-4a1d-bff7-61678e626c3f@52.231.38.95:443?security=tls&sni=vkvd127.mycdn.me&type=ws&host=bnnm.azurewebsites.net&fp=chrome&alpn=http%2F1.1#🔒 VL-WS-TLS 🇰🇷 KR-52.231.38.95:443
-
-vless://b75b3034-36ab-4979-beae-3d02db1b11ec@104.31.16.250:443?security=tls&sni=always-online1.lp-airdrop.top&type=ws&host=always-online1.lp-airdrop.top&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🏴‍☠️ NA-104.31.16.250:443
-vless://7c9e3c1d-a360-4429-9189-e45a98de7fde@185.193.30.172:443?security=tls&sni=powerpow.wfft.ir&type=ws&host=powerpow.wfft.ir&fp=chrome&alpn=h2,http/1.1#🔒 VL-WS-TLS 🇬🇧 GB-185.193.30.172:443
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@54.154.193.183:22222?security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=/telegram-channel-vlessconfig-ws#🔒 VL-WS-TLS 🇮🇪 IE-54.154.193.183:22222
-vless://b481bdf0-bf4b-464a-8357-725a0bb5a7d9@194.76.18.158:443?security=tls&sni=hdfyreplace3.parthianempire.org&type=ws&host=hdfyreplace3.parthianempire.org&path=%2Fb481bdf0-bf4b-464a-8357-725a0bb5a7d9#🔒 VL-WS-TLS 🇰🇿 KZ-194.76.18.158:443
-vless://8b54a6c7-2544-4a07-9520-b4e5252ba2b7@89.187.28.126:8443?security=tls&sni=ul-japan1.09vpn.com&type=ws&path=/vless/&allowInsecure=1#🔒 VL-WS-TLS 🇯🇵 JP-89.187.28.126:8443
+{
+  "dns": {
+    "hosts": {
+      "domain:googleapis.cn": "googleapis.com",
+      "dns.pub": [
+        "1.12.12.12",
+        "120.53.53.53"
+      ],
+      "dns.alidns.com": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ],
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ]
+    },
+    "servers": [
+      "1.1.1.1"
+    ]
+  },
+  "inbounds": [
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": false
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    }
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "95.164.46.39",
+            "port": 2052,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "93c5b02e-13e7-5e14-955c-9dd12a60c2db",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "grpcSettings": {
+          "authority": "",
+          "health_check_timeout": 20,
+          "idle_timeout": 60,
+          "multiMode": false,
+          "serviceName": "vless-grpc"
+        },
+        "network": "grpc",
+        "security": ""
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "remarks": "🔒 VL-GRPC-NA 🇮🇹 IT-95.164.46.39:2052",
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "zarinpal.com",
+          "shaparak.ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      }
+    ]
+  }
+}
