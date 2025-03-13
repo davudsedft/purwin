@@ -74,13 +74,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "0:0:0:0:0:ffff:cebd:325e",
-            "port": 2083,
+            "address": "138.124.102.65",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "acc7e066-9e97-4618-b6ef-fca1cbc0ac7d",
+                "id": "b3f4fc65-f6a9-4d84-a9a7-853596b88107",
                 "level": 8,
                 "security": "auto"
               }
@@ -94,15 +94,18 @@
           "health_check_timeout": 20,
           "idle_timeout": 60,
           "multiMode": false,
-          "serviceName": ""
+          "serviceName": "(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)_gxZKH0Rc9ol(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)_WwpW3iPFUm5"
         },
         "network": "grpc",
         "realitySettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
-          "publicKey": "b14Nibi1pMPwFPqgiyZRS3a6-Y-Q8EsE5urKnA-RkAc",
-          "serverName": "www.speedtest.net",
-          "shortId": "adf8a1f5689177a2",
+          "alpn": [
+            "h2"
+          ],
+          "fingerprint": "chrome",
+          "publicKey": "fwt5LNqDJIVUjNW3MfpuuhXX8M_-Hv512noEVh2RyWo",
+          "serverName": "stackoverflow.com",
+          "shortId": "7d891e2de36c",
           "show": false,
           "spiderX": ""
         },
@@ -127,7 +130,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-GRPC-RLT 🇩🇪 DE-[0:0:0:0:0:ffff:cebd:325e]:2083",
+  "remarks": "🔒 VL-GRPC-RLT 🇸🇪 SE-138.124.102.65:443",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
