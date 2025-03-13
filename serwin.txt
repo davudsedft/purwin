@@ -74,13 +74,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "138.124.102.65",
+            "address": "157.173.127.239",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "b3f4fc65-f6a9-4d84-a9a7-853596b88107",
+                "id": "667b5dfa-7ec4-45d7-ba9c-6957eed8cfbb",
                 "level": 8,
                 "security": "auto"
               }
@@ -89,27 +89,22 @@
         ]
       },
       "streamSettings": {
-        "grpcSettings": {
-          "authority": "",
-          "health_check_timeout": 20,
-          "idle_timeout": 60,
-          "multiMode": false,
-          "serviceName": "(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)_gxZKH0Rc9ol(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)(TG:@free_v2ray0)_WwpW3iPFUm5"
-        },
-        "network": "grpc",
+        "network": "tcp",
         "realitySettings": {
           "allowInsecure": false,
-          "alpn": [
-            "h2"
-          ],
           "fingerprint": "chrome",
-          "publicKey": "fwt5LNqDJIVUjNW3MfpuuhXX8M_-Hv512noEVh2RyWo",
-          "serverName": "stackoverflow.com",
-          "shortId": "7d891e2de36c",
+          "publicKey": "c5VJpRsIyrxNp0eS3Lz5EMQH6jWBsvSTK7hNZQ77bl4",
+          "serverName": "analytics.google.com",
+          "shortId": "4fd4ad",
           "show": false,
           "spiderX": ""
         },
-        "security": "reality"
+        "security": "reality",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
+        }
       },
       "tag": "proxy"
     },
@@ -130,7 +125,7 @@
       "tag": "block"
     }
   ],
-  "remarks": "🔒 VL-GRPC-RLT 🇸🇪 SE-138.124.102.65:443",
+  "remarks": "purnet",
   "routing": {
     "domainStrategy": "AsIs",
     "rules": [
