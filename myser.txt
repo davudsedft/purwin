@@ -1,3 +1,0 @@
-vless://d12e7198-95d4-41f1-b4d2-a94a1ee28546@45.149.12.254:8443?security=tls&sni=kanal-ma-falcunargo.2bddce6dfd.workers.dev&type=ws&host=kanal-ma-falcunargo.2bddce6dfd.workers.dev#🔒 VL-WS-TLS 🇳🇱 NL-45.149.12.254:8443
-vless://465fc43c-9872-40f9-bb94-ebee934e40b4@23.227.38.135:443?security=tls&sni=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&type=ws&host=eupmaq-fyvoq0da0mdvvzehshnqqcd6inl5ihzvry3fo5veeghhfkkhertre6uy.t03w4b.workers.Dev&path=%2F#🔒 VL-WS-TLS 🇨🇦 CA-23.227.38.135:443
-vless://7996d412-0b2a-4533-bba1-f7531861f1ec@85.237.211.219:8443?security=tls&sni=ul-uae2.09vpn.com&type=ws&path=%2Fvless%2F#🔒 VL-WS-TLS 🇦🇪 AE-85.237.211.219:8443
