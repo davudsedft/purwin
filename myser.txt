@@ -1,3 +1,6 @@
+vless://3af3a0f3-28ea-407c-a3df-2ae3b33fc174@50.7.85.221:443?security=tls&sni=salampesarm.sesewov745.workers.dev&type=ws&host=salampesarm.sesewov745.workers.dev&path=%2F%3Fed%3D2048#🔒 VL-WS-TLS 🇩🇪 DE-50.7.85.221:443
+vless://780161d1-a345-45d4-96fb-c2c4b88bf151@185.238.228.33:443?security=tls&sni=dd.gevom47953.workers.dev&type=ws&host=dd.gevom47953.workers.dev&path=%2F&fp=chrome#🔒 VL-WS-TLS 🇪🇸 ES-185.238.228.33:443
+
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.20.129.2:80?path=%2F%3Fed%3D2560&security=&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#[🇨🇦]t.me/ConfigsHub`
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.73.163:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=a.xn--i-sx6a60i.us.kg.&type=ws#[🇨🇦]t.me/ConfigsHub`
 vless://53fa8faf-ba4b-4322-9c69-a3e5b1555049@156.238.18.165:2052?security=none&type=ws&host=redw.pooriam.ir&path=%2FTM-ShadowProxy66%3Fed%3D2048#🔒 VL-WS-NONE 🇯🇵 JP-156.238.18.165:2052
