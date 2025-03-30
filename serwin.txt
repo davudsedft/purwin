@@ -1,18 +1,11 @@
 {
-  "remarks": "💦 2 - VLESS - Domain : 2096",
+  "remarks": "💦 3 - VLESS - IPv4 : 2096",
   "log": {
     "loglevel": "warning"
   },
   "dns": {
     "servers": [
-      "https://8.8.8.8/dns-query",
-      {
-        "address": "8.8.8.8",
-        "domains": [
-          "full:www.speedtest.net"
-        ],
-        "skipFallback": true
-      }
+      "https://8.8.8.8/dns-query"
     ],
     "queryStrategy": "UseIP",
     "tag": "dns"
@@ -49,49 +42,34 @@
   ],
   "outbounds": [
     {
-      "mux": {
-        "concurrency": 8,
-        "enabled": true,
-        "xudpConcurrency": 16,
-        "xudpProxyUDP443": "reject"
-      },
-      "protocol": "vless",
+      "protocol": "http",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.67.207.55",
-            "port": 443,
+            "address": "5.5.6.6:445",
+            "port": 445,
             "users": [
               {
-                "encryption": "none",
-                "id": "4d3e4850-83e4-4e9e-a4c1-0f11c43663e7",
-                "level": 8,
-                "security": "auto"
+                "user": "",
+                "pass": "",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
+        "network": "tcp",
         "sockopt": {
           "dialerProxy": "proxy",
           "domainStrategy": "UseIPv4v6"
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "alpn": [
-            "http/1.1"
-          ],
-          "serverName": "crolinde.carlotta.cloudns.org"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "crolinde.carlotta.cloudns.org"
-          }
         }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8,
+        "xudpConcurrency": 16,
+        "xudpProxyUDP443": "reject"
       },
       "tag": "chain"
     },
@@ -100,7 +78,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "172.66.47.91",
             "port": 2096,
             "users": [
               {
@@ -120,7 +98,7 @@
         },
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/ywiECcMVxv8e9DUN?ed=2560"
+          "path": "/rWjSthj98l3djNFU?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -128,7 +106,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "serverName": "20c261e9.KHATeRehh.PagEs.Dev"
+          "serverName": "20c261e9.khaTeRehH.pAGes.DEv"
         }
       },
       "tag": "proxy"
@@ -184,17 +162,6 @@
         ],
         "port": "53",
         "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "dns"
-        ],
-        "ip": [
-          "8.8.8.8"
-        ],
-        "port": "53",
-        "outboundTag": "direct",
         "type": "field"
       },
       {
