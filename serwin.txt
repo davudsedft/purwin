@@ -1,5 +1,5 @@
 {
-  "remarks": "💦 2 - VLESS - Domain : 443",
+  "remarks": "💦 2 - VLESS - Domain : 2096",
   "log": {
     "loglevel": "warning"
   },
@@ -49,34 +49,49 @@
   ],
   "outbounds": [
     {
-      "protocol": "http",
+      "mux": {
+        "concurrency": 8,
+        "enabled": true,
+        "xudpConcurrency": 16,
+        "xudpProxyUDP443": "reject"
+      },
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "12.12.12.12:5555",
-            "port": 5555,
+            "address": "172.67.207.55",
+            "port": 443,
             "users": [
               {
-                "user": "",
-                "pass": "",
-                "level": 8
+                "encryption": "none",
+                "id": "4d3e4850-83e4-4e9e-a4c1-0f11c43663e7",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
         "sockopt": {
           "dialerProxy": "proxy",
           "domainStrategy": "UseIPv4v6"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "crolinde.carlotta.cloudns.org"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "crolinde.carlotta.cloudns.org"
+          }
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": 8,
-        "xudpConcurrency": 16,
-        "xudpProxyUDP443": "reject"
       },
       "tag": "chain"
     },
@@ -86,7 +101,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 443,
+            "port": 2096,
             "users": [
               {
                 "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
@@ -105,7 +120,7 @@
         },
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/YVz0dAtjQfOjKXnM?ed=2560"
+          "path": "/ywiECcMVxv8e9DUN?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -113,7 +128,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "serverName": "20c261E9.KhatErEHH.paGEs.DEv"
+          "serverName": "20c261e9.KHATeRehh.PagEs.Dev"
         }
       },
       "tag": "proxy"
