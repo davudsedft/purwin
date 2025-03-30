@@ -1,5 +1,5 @@
 {
-  "remarks": "💦 3 - VLESS - IPv4 : 2096",
+  "remarks": "💦 4 - VLESS - IPv4 : 443",
   "log": {
     "loglevel": "warning"
   },
@@ -42,34 +42,50 @@
   ],
   "outbounds": [
     {
-      "protocol": "http",
+      "mux": {
+        "concurrency": 8,
+        "enabled": true,
+        "xudpConcurrency": 16,
+        "xudpProxyUDP443": "reject"
+      },
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "5.5.6.6:445",
-            "port": 445,
+            "address": "172.66.44.165",
+            "port": 443,
             "users": [
               {
-                "user": "",
-                "pass": "",
-                "level": 8
+                "encryption": "none",
+                "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
+                "level": 8,
+                "security": "auto"
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "ws",
+        "security": "tls",
         "sockopt": {
           "dialerProxy": "proxy",
           "domainStrategy": "UseIPv4v6"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "20c261E9.KHaTERehH.paGES.DeV"
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "20c261e9.khaterehh.pages.dev"
+          },
+          "path": "/2GuBHZC2LNT77wZK?ed=2560"
         }
-      },
-      "mux": {
-        "enabled": true,
-        "concurrency": 8,
-        "xudpConcurrency": 16,
-        "xudpProxyUDP443": "reject"
       },
       "tag": "chain"
     },
@@ -78,8 +94,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.47.91",
-            "port": 2096,
+            "address": "172.66.44.165",
+            "port": 443,
             "users": [
               {
                 "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
@@ -98,7 +114,7 @@
         },
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/rWjSthj98l3djNFU?ed=2560"
+          "path": "/h92Jry1es5n5n7EO?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -106,7 +122,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "serverName": "20c261e9.khaTeRehH.pAGes.DEv"
+          "serverName": "20c261E9.KhaterEhh.pAGES.dev"
         }
       },
       "tag": "proxy"
