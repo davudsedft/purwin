@@ -42,49 +42,21 @@
   ],
   "outbounds": [
     {
-      "mux": {
-        "concurrency": 8,
-        "enabled": true,
-        "xudpConcurrency": 16,
-        "xudpProxyUDP443": "reject"
-      },
-      "protocol": "vless",
+      "protocol": "http",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.66.44.165",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "147.75.34.103",
+            "port": 10003
+         
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
+        "network": "tcp",
         "sockopt": {
           "dialerProxy": "proxy",
           "domainStrategy": "UseIPv4v6"
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "alpn": [
-            "http/1.1"
-          ],
-          "serverName": "20c261E9.KHaTERehH.paGES.DeV"
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "20c261e9.khaterehh.pages.dev"
-          },
-          "path": "/2GuBHZC2LNT77wZK?ed=2560"
         }
       },
       "tag": "chain"
@@ -114,7 +86,7 @@
         },
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/h92Jry1es5n5n7EO?ed=2560"
+          "path": "/J7U6Pn6xolwhrl9I?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -122,7 +94,7 @@
           "alpn": [
             "http/1.1"
           ],
-          "serverName": "20c261E9.KhaterEhh.pAGES.dev"
+          "serverName": "20C261E9.KHATErEhh.pAGES.dEv"
         }
       },
       "tag": "proxy"
