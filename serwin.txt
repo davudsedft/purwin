@@ -1,5 +1,5 @@
 {
-  "remarks": "💦 6 - VLESS - IPv6 : 443",
+  "remarks": "final",
   "log": {
     "loglevel": "warning"
   },
@@ -47,7 +47,7 @@
         "servers": [
           {
             "address": "94.182.174.89",
-            "port": 7778,
+            "port": 778,
             "users": [
               {
                 "user": "",
@@ -65,12 +65,7 @@
           "domainStrategy": "UseIPv4v6"
         }
       },
-      "mux": {
-        "enabled": false,
-        "concurrency": 8,
-        "xudpConcurrency": 16,
-        "xudpProxyUDP443": "reject"
-      },
+   
       "tag": "chain"
     },
     {
@@ -93,10 +88,7 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        "sockopt": {
-          "dialerProxy": "",
-          "domainStrategy": "UseIPv4v6"
-        },
+        
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
           "path": "/TY4a7G8MKJmggfbp?ed=2560"
