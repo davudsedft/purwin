@@ -1,133 +1,154 @@
 {
-    "dns": {
-        "hosts": {
-            "domain:googleapis.cn": "googleapis.com"
-        },
+  "remarks": "final",
+  "log": {
+    "loglevel": "warning"
+  },
+  "dns": {
+    "servers": [
+      "https://8.8.8.8/dns-query"
+    ],
+    "queryStrategy": "UseIP",
+    "tag": "dns"
+  },
+  "inbounds": [
+    {
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls"
+        ],
+        "enabled": true,
+        "routeOnly": true
+      },
+      "tag": "socks-in"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "http",
+      "settings": {
         "servers": [
-            "1.1.1.1"
+          {
+            "address": "94.182.174.89",
+            "port": 778,
+            "users": [
+              {
+                "user": "",
+                "pass": "",
+                "level": 8
+              }
+            ]
+          }
         ]
+      },
+      "tag": "http-proxy"
     },
-    "inbounds": [
-        {
-            "listen": "127.0.0.1",
-            "port": 10808,
-            "protocol": "socks",
-            "settings": {
-                "auth": "noauth",
-                "udp": true,
-                "userLevel": 8
-            },
-            "sniffing": {
-                "enabled": true
-            },
-            "tag": "socks"
-        },
-        {
-            "listen": "127.0.0.1",
-            "port": 10809,
-            "protocol": "http",
-            "settings": {
-                "userLevel": 8
-            },
-            "sniffing": {
-                "enabled": true
-            },
-            "tag": "http"
-        }
-    ],
-    "log": {
-        "loglevel": "warning"
-    },
-    "outbounds": [
-        {
-            "mux": {
-                "enabled": false
-            },
-            "protocol": "vless",
-            "settings": {
-                "vnext": [
-                    {
-                        "address": "157.173.127.239",
-                        "port": 443,
-                        "users": [
-                            {
-                                "id": "667b5dfa-7ec4-45d7-ba9c-6957eed8cfbb",
-                                "encryption": "none",
-                                "flow": "",
-                                "level": 8,
-                                "security": "reality"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "streamSettings": {
-                "network": "tcp",
-                "security": "reality",
-                "realitySettings": {
-                    "allowInsecure": false,
-                    "fingerprint": "chrome",
-                    "publicKey": "c5VJpRsIyrxNp0eS3Lz5EMQH6jWBsvSTK7hNZQ77bl4",
-                    "serverName": "analytics.google.com",
-                    "shortId": "4fd4ad",
-                    "show": false,
-                    "spiderX": ""
-                }
-            },
-            "tag": "proxy"
-        },
-        {
-            "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "UseIP"
-            },
-            "tag": "direct"
-        },
-        {
-            "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
-            "tag": "block"
-        }
-    ],
-    "routing": {
-        "domainStrategy": "AsIs",
-        "rules": [
-            {
-                "ip": [
-                    "1.1.1.1"
-                ],
-                "outboundTag": "proxy",
-                "port": "53",
-                "type": "field"
-            },
-            {
-                "ip": [
-                    "223.5.5.5"
-                ],
-                "outboundTag": "direct",
-                "port": "53",
-                "type": "field"
-            },
-            {
-                "domain": [
-                    "zarinpal.com",
-                    "shaparak.ir",
-                    "domain:basalam.com",
-                    "domain:github.com",
-                    "domain:.ir",
-                    "domain:shaparak.ir",
-                    "domain:post.ir",
-                    "domain:purnet.ir",
-                    "domain:zarinpal.com"
-                ],
-                "outboundTag": "direct",
-                "type": "field"
-            }
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2606:4700:310c::ac42:2ca5]",
+            "port": 443,
+            "users": [
+              {
+                "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
+                "encryption": "none",
+                "level": 8
+              }
+            ]
+          }
         ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "host": "20c261e9.khaterehh.pages.dev",
+          "path": "/TY4a7G8MKJmggfbp?ed=2560"
+        },
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "alpn": [
+            "http/1.1"
+          ],
+          "serverName": "20c261e9.KhaTEreHH.PaGeS.DEV"
+        }
+      },
+      "proxySettings": {
+        "tag": "http-proxy"
+      },
+      "tag": "proxy"
     },
-    "remarks": "purnet"
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    }
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "ip": [
+          "geoip:private",
+          "geoip:ir"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "network": "udp",
+        "port": "443",
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "inboundTag": ["socks-in"],
+        "outboundTag": "proxy"
+      }
+    ]
+  },
+  "stats": {}
 }
