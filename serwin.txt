@@ -1,5 +1,5 @@
 {
-  "remarks": "final",
+  "remarks": "💦 4 - VLESS - IPv4 : 2096",
   "log": {
     "loglevel": "warning"
   },
@@ -47,7 +47,7 @@
         "servers": [
           {
             "address": "94.182.174.89",
-            "port": 778,
+            "port": 9999,
             "users": [
               {
                 "user": "",
@@ -61,11 +61,16 @@
       "streamSettings": {
         "network": "tcp",
         "sockopt": {
-          "dialerProxy": "proxy",
+          "dialerProxy": "",
           "domainStrategy": "UseIPv4v6"
         }
       },
-   
+      "mux": {
+        "enabled": false,
+        "concurrency": 8,
+        "xudpConcurrency": 16,
+        "xudpProxyUDP443": "reject"
+      },
       "tag": "chain"
     },
     {
@@ -73,8 +78,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2606:4700:310c::ac42:2ca5]",
-            "port": 443,
+            "address": "172.66.47.91",
+            "port": 2096,
             "users": [
               {
                 "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
@@ -88,10 +93,12 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
-        
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6"
+        },
         "wsSettings": {
           "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/TY4a7G8MKJmggfbp?ed=2560"
+          "path": "/ygU0HVZCopChIFN3?ed=2560"
         },
         "tlsSettings": {
           "allowInsecure": false,
@@ -99,10 +106,15 @@
           "alpn": [
             "http/1.1"
           ],
-          "serverName": "20c261e9.KhaTEreHH.PaGeS.DEV"
+          "serverName": "20C261e9.khAterEhh.PAgEs.dev"
         }
       },
-      "tag": "proxy"
+      "tag": "proxy",
+
+     "proxySettings": {
+     "tag": "chain",
+     "transportLayer": true
+    }
     },
     {
       "protocol": "dns",
@@ -158,38 +170,14 @@
         "type": "field"
       },
       {
-        "ip": [
-          "geoip:private",
-          "geoip:ir"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "port": "443",
-        "outboundTag": "direct",
-        "type": "field"
-      },
-
-   {
-        "outboundTag": "proxy",
+        "outboundTag": "chain",
         "inboundTag": [
           "dns"
         ],
         "type": "field"
       },
       {
-        "inboundTag": [
-          "socks-in"
-        ],
+        "network": "tcp,udp",
         "outboundTag": "proxy",
         "type": "field"
       }
