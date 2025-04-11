@@ -5,7 +5,9 @@
   },
   "dns": {
     "servers": [
-      "https://8.8.8.8/dns-query"
+      "localhost",
+      "8.8.8.8",
+      "1.1.1.1"
     ],
     "queryStrategy": "UseIP",
     "tag": "dns"
@@ -37,7 +39,7 @@
         "servers": [
           {
             "address": "94.182.174.89",
-            "port": 778,
+            "port": 7778,
             "users": [
               {
                 "user": "",
@@ -83,72 +85,43 @@
           "serverName": "20c261e9.KhaTEreHH.PaGeS.DEV"
         }
       },
-      "proxySettings": {
-        "tag": "http-proxy"
-      },
-      "tag": "proxy"
+      "tag": "vless-out"
     },
     {
       "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      },
       "tag": "direct"
     },
     {
       "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
       "tag": "block"
     }
   ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
   "routing": {
     "domainStrategy": "IPIfNonMatch",
     "rules": [
       {
-        "ip": [
-          "geoip:private",
-          "geoip:ir"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "port": "443",
-        "outboundTag": "direct",
-        "type": "field"
+        "type": "field",
+        "outboundTag": "http-proxy",
+        "network": "tcp"
       },
       {
         "type": "field",
-        "inboundTag": ["socks-in"],
-        "outboundTag": "proxy"
+        "outboundTag": "vless-out",
+        "inboundTag": [
+          "socks-in"
+        ],
+        "domain": [
+          "geosite:geolocation-!ir"
+        ]
+      },
+      {
+        "type": "field",
+        "ip": [
+          "geoip:ir",
+          "geoip:private"
+        ],
+        "outboundTag": "direct"
       }
     ]
-  },
-  "stats": {}
+  }
 }
