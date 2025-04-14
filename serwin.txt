@@ -1,1 +1,1 @@
-hysteria2://18463200c271aa6d@45.63.116.113:443?security=tls&obfs=salamander&obfs-password=6c80ade6&insecure=1&sni=vkvd127.mycdn.me#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A9%F0%9F%87%AA%20DE-45.63.116.113%3A443
+vless://TELEGRAM-ServerNett@[2a01:4f8:1c1b:2411::1]:43224?security=none\u0026amp;encryption=none\u0026amp;headerType=none\u0026amp;type=tcp#%40SERVERNETT%20%201
