@@ -1,1 +1,1 @@
-trojan://xxoo@us.blazeppn.info:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-1000
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxeE8yY3FQYXpxakdmQ2Zk@freakconfig13.felafel.org:443#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD%20%E4%BD%90%E6%B2%BB%E4%BA%9A%E5%B7%9E%E4%BA%9A%E7%89%B9%E5%85%B0%E5%A4%A7%E5%B8%82BellSouth%E5%85%AC%E5%8F%B8
