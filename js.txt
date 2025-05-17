@@ -1,127 +1,27 @@
-{
-  "remarks": "final",
-  "log": {
-    "loglevel": "warning"
-  },
-  "dns": {
-    "servers": [
-      "localhost",
-      "8.8.8.8",
-      "1.1.1.1"
-    ],
-    "queryStrategy": "UseIP",
-    "tag": "dns"
-  },
-  "inbounds": [
-    {
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true,
-        "routeOnly": true
-      },
-      "tag": "socks-in"
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "http",
-      "settings": {
-        "servers": [
-          {
-            "address": "94.182.174.89",
-            "port": 7778,
-            "users": [
-              {
-                "user": "",
-                "pass": "",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "tag": "http-proxy"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "[2606:4700:310c::ac42:2ca5]",
-            "port": 443,
-            "users": [
-              {
-                "id": "51bacdbb-5428-47d4-8b53-85f3e4fa7527",
-                "encryption": "none",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "wsSettings": {
-          "host": "20c261e9.khaterehh.pages.dev",
-          "path": "/TY4a7G8MKJmggfbp?ed=2560"
-        },
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "alpn": [
-            "http/1.1"
-          ],
-          "serverName": "20c261e9.KhaTEreHH.PaGeS.DEV"
-        }
-      },
-      "tag": "vless-out"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
-    }
-  ],
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "outboundTag": "http-proxy",
-        "network": "tcp"
-      },
-      {
-        "type": "field",
-        "outboundTag": "vless-out",
-        "inboundTag": [
-          "socks-in"
-        ],
-        "domain": [
-          "geosite:geolocation-!ir"
-        ]
-      },
-      {
-        "type": "field",
-        "ip": [
-          "geoip:ir",
-          "geoip:private"
-        ],
-        "outboundTag": "direct"
-      }
-    ]
-  }
-}
+vless://eacc24ed-a1c1-4037-9af4-4f6bcd657119@91.107.219.8:443?security=reality&flow=xtls-rprx-vision&sni=direct.pdownloaddigikala.ir&type=tcp&fp=chrome&pbk=Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA&sid=1d13151ce1#🔒
+vless://685214a5-d9a2-40a5-ae75-a10bbc4334f0@77.90.11.28:443?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=ampnaChEHEYr1TDX5A17QMBa_l0LnK3jWNDxVw31Kls&sid=cb#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.80.218.124:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@34.207.180.2:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.196.91.196:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://ce462cc3-9983-45da-b030-728fb7b5684e@188.245.250.75:7022?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=Sm0gGVH8qJHECOVhNaN2j52ayfqYcrZggyQMxiQP2Fo#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@13.216.214.183:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.84.94.99:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.147.252.5:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.80.21.221:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.162.234.196:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@50.19.181.59:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@100.24.49.8:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://a0de1607-5b63-fab8-a759-9f98706b6125@146.19.90.10:443?security=reality&flow=xtls-rprx-vision&sni=speed.cloudflare.com&type=tcp&fp=chrome&pbk=oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko#🔒
+vless://2d317da5-47c5-4db4-933f-16d1094668db@42.98.17.185:20550?security=reality&flow=xtls-rprx-vision&sni=www.paypal.com&type=tcp&fp=chrome&pbk=cWs2mTxI3sdZlPYsRh239mJFnxi0Y8RmF-ZEtziFNQ8#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@100.24.71.29:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@5.181.171.10:443?security=reality&flow=xtls-rprx-vision&sni=speed.cloudflare.com&type=tcp&fp=chrome&pbk=YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@98.81.121.183:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://bec44ac3-a662-4179-a9dd-2aa881706dde@157.173.127.224:443?security=reality&sni=analytics.google.com&type=tcp&fp=chrome&pbk=Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ&sid=aba7bc9a#🔒
+vless://4a73fddb-e8c2-45fe-ad2c-e5bde13e51a6@45.150.174.82:443?security=reality&flow=xtls-rprx-vision&sni=maviks.eu&type=tcp&host=JOKERRVPNJoin_Bade_Channel@JOKERRVPN&fp=chrome&pbk=lyLhdojpACv6B3tHViJvPjNGATedXYRMnpAt4n4Siyo&sid=f203719d3ff9a5f5#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@35.153.102.138:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@3.88.50.22:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@35.174.11.119:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.156.62.159:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://7f93e196-1b2f-4a42-8051-5815554c05db@54.80.121.136:443?security=reality&flow=xtls-rprx-vision&sni=zula.ir&type=tcp&fp=chrome&pbk=GbWTeH8a_C8FLKqJ2hyuoY77WsSQIJschXB16usasCg&sid=7a2b#🔒
+vless://6bb86285-d539-44c6-8747-ff04a0063509@77.73.131.152:16345?security=reality&flow=xtls-rprx-vision&sni=google.com&type=tcp&fp=chrome&pbk=xUhA4LVyXIOHRUvyrW3RXQyKWQfO6XCYRrIJVHKxrVc&sid=23e04f44#🔒
+vless://f2d09fb7-ac3d-4b62-b359-e2c35a5be126@8.218.114.184:443?security=reality&flow=xtls-rprx-vision&sni=www.ebay.com&type=tcp&host=13.231.56.224&fp=chrome&pbk=z3dsRlZdhVuCHIaU6d5nNePmRmNG_-KGdLpu-m0Jz0M&sid=35f29e450ad773a3#🔒
