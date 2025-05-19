@@ -1,3 +1,4 @@
+vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@104.31.16.95:2053?security=tls&sni=ir.akcovufun.ir&type=ws&host=ir.akcovufun.ir&path=%2F#🇫🇮[openproxylist.com]
 vless://588f094b-431b-422c-b80b-007945037072@de09.abvpn.ru:443?security=tls&sni=de09.abvpn.ru&fp=chrome&type=ws&path=/websocket&packetEncoding=xudp&encryption=none#[🇩🇪]t.me/ConfigsHub`
 vless://588f094b-431b-422c-b80b-007945037072@150.241.101.16:443?security=tls&sni=de09.abvpn.ru&allowInsecure=1&fp=chrome&type=ws&path=/websocket&host=de09.abvpn.ru&packetEncoding=xudp&encryption=none#[🇩🇪]t.me/ConfigsHub`
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@www.speedtest.net:443?sni=Ds807Ay6Vc.MaKeFoRlEsS.iNfO&alpn=h3h2&type=ws&host=Ds807Ay6Vc.MaKeFoRlEsS.iNfO&path=/fp=chrome&security=tls#2%7C%F0%9F%8C%806-CY%20%7C%20%204.9MB/s%7C44%25%7COpenai
@@ -185,7 +186,6 @@ vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@199.34.228.191:2096?security=tls&sn
 vless://3fefc100-faed-43ad-b087-d47ddfe75121@23.227.60.7:443?security=tls&sni=s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev&type=ws&host=s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev&path=Path%2FTelegram@proxy_mtm%2F%3Fed%3D2048#🔒
 vless://d12e7198-95d4-41f1-b4d2-a94a1ee28546@45.149.12.247:443?security=tls&sni=kanal-ma-falcunargo.2bddce6dfd.workers.dev&type=ws&host=kanal-ma-falcunargo.2bddce6dfd.workers.dev&path=%2Ftelegram%40V2ray_Alpha%2F%3Fed%3D2560#🔒
 vless://994c91dd-b282-4c25-a0c5-af76b480c080@66.235.200.1:443?security=tls&sni=mci-google-bing3164.sdb5j.workers.dev&type=ws&host=mci-google-bing3164.sdb5j.workers.dev&path=%2F%3Fed%3D2048&fp=randomized#🔒
-vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@104.31.16.95:2053?security=tls&sni=ir.akcovufun.ir&type=ws&host=ir.akcovufun.ir&path=%2F#🇫🇮[openproxylist.com]
 vless://b1c801ec-1c5e-4d12-8b53-8da11c64a21b@91.84.111.144:443?security=reality&flow=xtls-rprx-vision&sni=video.intfreed.ru&type=tcp&fp=chrome&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&sid=7755e972daf8eec8#🔒
 vless://10b59513-ef76-4494-a925-305ec45dd3a4@45.12.139.44:2040?security=reality&sni=github.com&type=tcp&fp=chrome&pbk=iPjWLvXWt7ABJaSRRwzjgLrvlJlwoYQZN8zF-G3D-Qs&sid=27cfa05000c23cc4#🔒
 vless://c98a16e4-0dc5-42f0-b3db-30f04525c123@103.160.204.50:443?security=tls&sni=vless8-ekh.pages.dev&type=ws&host=vless8-ekh.pages.dev&path=/?ed%3D2560&fp=random&alpn=h3#🔒
