@@ -1,1 +1,2 @@
-dmxlc3M6Ly83MzZlNGVkMS02M2RjLTRkNjMtYWYxNC00NTFjMTdhYzA1OWFAMTA0LjE4LjE0LjE5OjIwNTI/c2VjdXJpdHk9bm9uZSZ0eXBlPXdzJmhvc3Q9MDEyNC41enZtb2Nidi53b3JrZXJzLmRldiZwYXRoPSUyRiUzRmVkJTNEMjU2MCPwn5SS
+vless://588f094b-431b-422c-b80b-007945037072@95.164.47.60:443?security=tls&sni=de02.abvpn.ru&type=ws&host=de02.abvpn.ru&path=%2Fwebsocket#🔒
+vless://588f094b-431b-422c-b80b-007945037072@89.23.103.150:443?security=tls&sni=nl08.abvpn.ru&type=ws&path=%2Fwebsocket#🔒
