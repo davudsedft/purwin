@@ -1,3 +1,10 @@
+trojan://xxoo@138.197.5.103:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0244
+trojan://xxoo@us.blazeppn.info:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0529
+trojan://6884d714-d3c4-4b49-aa20-767ea92837d6@185.16.110.113:443?security=tls&sni=icecream.955850.xyz&type=ws&path=/&Host=icecream.955850.xyz#%F0%9F%87%AB%F0%9F%87%B7FR-185.16.110.113-0863
+trojan://dQUWbcwECl@20.191.138.47:443?security=tls&sni=automq4-proxy.automq-sg.com#%F0%9F%87%B8%F0%9F%87%ACSG-20.191.138.47-5834
+trojan://dQUWbcwECl@automq4-proxy.automq-sg.com:443?security=tls#%F0%9F%87%B8%F0%9F%87%ACSG-20.191.138.47-5638
+trojan://dQUWbcwECl@automq3-proxy.automq-sg.com:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-74.176.59.185-5637
+trojan://aTArbZ2F0E@cloudgetservice.mcloudservice.site:443?security=tls&sni=uSa-vp-27.bLAzECLOUD.SITE&type=ws&path=/linkvkws&Host=uSa-vp-27.bLAzECLOUD.SITE#%F0%9F%8F%81RELAY-172.66.168.218-2460
 vless://d37f3a97-8690-41a8-8ad9-1967239b1b6c@46.243.3.15:443?security=reality&sni=www.cdn77.com&type=tcp&fp=chrome&pbk=SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI&sid=e54b5ad736ae4c38#🔒
 vless://ce462cc3-9983-45da-b030-728fb7b5684e@188.245.250.75:7022?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=Sm0gGVH8qJHECOVhNaN2j52ayfqYcrZggyQMxiQP2Fo#🔒
 vless://d12e7198-95d4-41f1-b4d2-a94a1ee28546@45.149.12.254:8443?security=tls&sni=kanal-ma-falcunargo.2bddce6dfd.workers.dev&type=ws&host=kanal-ma-falcunargo.2bddce6dfd.workers.dev&path=%2F%3Fed%3D2560#🔒
