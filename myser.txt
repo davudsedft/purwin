@@ -1,3 +1,12 @@
+vless://588f094b-431b-422c-b80b-007945037072@89.23.103.150:443?security=tls&sni=nl08.abvpn.ru&type=ws&path=%2Fwebsocket#🔒
+vless://c3708323-48fe-49c2-aaef-84d0a4cd12ff@170.114.45.159:443?security=tls&sni=3my2cynahdu6esnujyt3kd0onc3orjj5nuhqvmoqqbd0sj-dyc.15zyyu2.workers.Dev&type=ws&host=3my2cynahdu6esnujyt3kd0onc3orjj5nuhqvmoqqbd0sj-dyc.15zyyu2.workers.Dev&path=%2F&fp=chrome#🔒
+vless://588f094b-431b-422c-b80b-007945037072@95.164.47.60:443?security=tls&sni=de02.abvpn.ru&type=ws&host=de02.abvpn.ru&path=%2Fwebsocket#🔒
+vless://588f094b-431b-422c-b80b-007945037072@103.231.73.214:443?security=tls&sni=lv01.abvpn.ru&type=ws&host=lv01.abvpn.ru&path=%2Fwebsocket#🔒
+vless://588f094b-431b-422c-b80b-007945037072@46.226.162.42:443?security=tls&sni=gbr01.abvpn.ru&type=ws&path=%2Fwebsocket&fp=chrome#🔒
+vless://1a7a39e4-8c9b-4052-b8b2-c0929536bba5@95.164.4.88:8443?security=tls&sni=pq-brazil1.09vpn.com&type=ws&path=%2Fvless%2F&fp=chrome#🔒
+vless://588f094b-431b-422c-b80b-007945037072@5.182.86.128:443?security=tls&sni=nl07.abvpn.ru&type=ws&host=nl07.abvpn.ru&path=/websocket#🔒
+vless://588f094b-431b-422c-b80b-007945037072@89.23.118.93:443?security=tls&sni=ru01.abvpn.ru&type=ws&host=ru01.abvpn.ru&path=%2Fwebsocket%23TELEGRAM-MARAMBASHI_MARAMBASHI%3Fed%3D512&fp=chrome#🔒
+vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@104.31.16.95:2053?security=tls&sni=ir.akcovufun.ir&type=ws&host=ir.akcovufun.ir&path=%2F#🔒
 trojan://telegram-id-directvpn@13.39.192.171:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#OurChannel%20:%20@DirectVPN
 trojan://telegram-id-privatevpns@13.39.192.171:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#(S103)%F0%9F%87%A8%F0%9F%87%B5t.me/PrivateVPNs
 trojan://telegram-id-directvpn@15.236.27.95:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%91%89%F0%9F%86%94@v2ray_configs_pool%F0%9F%93%A1%F0%9F%87%AB%F0%9F%87%B7%C2%AE%EF%B8%8FFrance%C2%A9%EF%B8%8FParis%F0%9F%85%BF%EF%B8%8Fping:34.3ms
@@ -9,12 +18,10 @@ trojan://auto@[2a06:98c1:3121::3]:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&
 vless://387620fc-e932-4767-abeb-b16953c3b256@146.190.237.125:21332?security=reality&encryption=none&pbk=bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI&headerType=none&fp=chrome&type=tcp&sni=refersion.com&sid=866c9d6a17a0ae44#All-%40V2ray_Alpha-77
 vless://ce462cc3-9983-45da-b030-728fb7b5684e@188.245.250.75:7022?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=Sm0gGVH8qJHECOVhNaN2j52ayfqYcrZggyQMxiQP2Fo#🔒
 vless://eacc24ed-a1c1-4037-9af4-4f6bcd657119@91.107.219.8:443?security=reality&flow=xtls-rprx-vision&sni=direct.pdownloaddigikala.ir&type=tcp&fp=chrome&pbk=Rcapy_5gvuL9LOr1Bqz-Y84P69L3wUQjG48xpB4fLTA&sid=1d13151ce1#🔒
-vless://588f094b-431b-422c-b80b-007945037072@89.23.103.150:443?security=tls&sni=nl08.abvpn.ru&type=ws&path=%2Fwebsocket#🔒
 vless://acd71a14-6f45-4451-b150-daa59dcbe36a@116.203.140.209:1615?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=hGWQLRX3fXhy649AM9QbmRBlDs4DU-trXDal_F5pCjI&sid=f387eb8185414508#🔒
 vless://387620fc-e932-4767-abeb-b16953c3b256@209.38.225.27:21332?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI&sid=866c9d6a17a0ae44#🔒
 vless://e6753c44-94c0-4c55-9ead-1d80ad26f9d7@134.122.92.59:443?security=reality&sni=www.cdn77.com&type=tcp&path=%2F%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20%3Fed%3D2048&fp=chrome&pbk=5xiyLGs_ncheTe1mCh9cBCcnHyB6fGgDRRJikRIBwQ0&sid=1d16c3649971f423#🔒
 vless://387620fc-e932-4767-abeb-b16953c3b256@64.227.45.240:21367?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=bGfBNbN30La6XWb4Cakg4y7kRCiveT2LpWYhK8r3-BI&sid=866c9d6a17a0ae44#🔒
-vless://c3708323-48fe-49c2-aaef-84d0a4cd12ff@170.114.45.159:443?security=tls&sni=3my2cynahdu6esnujyt3kd0onc3orjj5nuhqvmoqqbd0sj-dyc.15zyyu2.workers.Dev&type=ws&host=3my2cynahdu6esnujyt3kd0onc3orjj5nuhqvmoqqbd0sj-dyc.15zyyu2.workers.Dev&path=%2F&fp=chrome#🔒
 vless://588f094b-431b-422c-b80b-007945037072@lv01.abvpn.ru:443?path=%2Fwebsocket&security=tls&encryption=none&host=lv01.abvpn.ru&type=ws&sni=lv01.abvpn.ru#[🏁]t.me/ConfigsHub`
 vless://3558dd78-e965-4c37-816c-9077c1218a7b@23.88.52.103:443?security=reality&sni=refersion.com&type=tcp&fp=chrome&pbk=FPLFy7fZyzEZf519e_ExsQlMvhbdaaAWRvryM6eV7SU&sid=2b#🔒
 vless://49ed01ad-3bb4-204f-b0ff-a58f658fd618@5.181.171.10:443?security=reality&flow=xtls-rprx-vision&sni=speed.cloudflare.com&type=tcp&fp=chrome&pbk=YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y#🔒
@@ -92,7 +99,6 @@ vless://07e8ccf6-f598-4e10-9be7-a1b9aa51f518@54.37.79.28:1983?security=reality&s
 vless://db655400-3b76-5530-a13b-b908b691484b@138.124.31.187:443?security=tls&sni=fr.vless.comnpmjs.com&type=ws&host=fr.vless.comnpmjs.com&path=/vless#🔒
 vless://ee317e25-4c44-4b3f-81fd-93420678bd34@45.87.102.244:21851?security=reality&flow=xtls-rprx-vision&sni=one-piece.com&type=tcp&fp=chrome&pbk=EcToF-48rTWeedF6qD5yUrJ3AC_Y3FrzGUE5UP5bg2A&sid=6ba85179e30d4fc2#🔒
 vless://588f094b-431b-422c-b80b-007945037072@46.226.162.42:443?security=tls&sni=gbr01.abvpn.ru&type=ws&path=/websocket&fp=chrome#🔒
-vless://1a7a39e4-8c9b-4052-b8b2-c0929536bba5@95.164.4.88:8443?security=tls&sni=pq-brazil1.09vpn.com&type=ws&path=%2Fvless%2F&fp=chrome#🔒
 vless://2404f667-5969-4883-a71a-ea2e0db2d25b@whatismyipaddress.com:2096?sni=wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir&type=ws&host=wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir&path=fp=chrome&security=tls#3%7C%F0%9F%87%AB%F0%9F%87%B75%20%7C%20%203.1MB/s%7C36%25%7COpenai
 trojan://xxoo@138.197.5.103:443?security=tls&sni=us.blazeppn.info&type=raw#🔒
 vless://b77143a4-d480-42fb-8ba3-1f7282948a97@77.110.98.221:36994?security=reality&flow=xtls-rprx-vision&sni=google.com&type=tcp&host=%2FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI&fp=chrome&pbk=B0o9qWjR8-Rwid0pZe-C4LPfxUJCDSWANN0CMbbPxSY&sid=8b5ba7aca4#🔒
@@ -105,7 +111,6 @@ vless://1799b29e-d587-4ad7-b58e-5ef51c158173@79.110.51.52:55555?security=reality
 vless://d37f3a97-8690-41a8-8ad9-1967239b1b6c@46.243.3.15:443?security=reality&sni=www.cdn77.com&type=tcp&fp=chrome&pbk=SWA-po18cETv3noGE9OearcQaA6ERQRg31ejuSMpbkI&sid=e54b5ad736ae4c38#🔒
 vless://780161d1-a345-45d4-96fb-c2c4b88bf151@185.238.228.33:443?security=tls&sni=dd.gevom47953.workers.dev&type=ws&host=dd.gevom47953.workers.dev&path=%2F&fp=chrome#🔒
 vless://741f2cb6-4d5b-4fd7-830a-d731c9e1e859@45.142.120.5:443?security=tls&sni=uciranirskiaromadarjendeh.bitokaw551.workers.dev&type=ws&host=uciranirskiaromadarjendeh.bitokaw551.workers.dev&path=%2F%3Fed%3D443&fp=randomized#🔒
-vless://588f094b-431b-422c-b80b-007945037072@103.231.73.214:443?security=tls&sni=lv01.abvpn.ru&type=ws&host=lv01.abvpn.ru&path=%2Fwebsocket#🔒
 vless://994c91dd-b282-4c25-a0c5-af76b480c080@66.235.200.1:443?security=tls&sni=mci-google-bing3164.sdb5j.workers.dev&type=ws&host=mci-google-bing3164.sdb5j.workers.dev&path=%2F%3Fed%3D2048&fp=randomized#🔒
 trojan://dQUWbcwECl@20.191.138.47:443?security=tls&sni=automq4-proxy.automq-sg.com&type=tcp&allowInsecure=1#🔒
 trojan://Ng35283528@gozargah5.cloudflare3-80.hosting-ip.com:443?allowInsecure=1&sni=c2.validbv3528.eu.org&type=ws&host=c2.validbv3528.eu.org&path=/?ed=2560#15%7CUS_speednode_0257
@@ -146,7 +151,6 @@ purguard://ABkwA7HtjovzQcegJt9Vk5%2FkWO64q37k%2FCl5HxWHnVo%3D@188.114.98.42:4198
 vless://156310fb-f61d-4413-b33c-650c400701ee@95.182.98.109:443?security=reality&sni=tgju.org&type=tcp&fp=chrome&pbk=N9Ao_oMgsYAMSuGYrXBHy-CAPzX3j9E0pugWCcWi0U8&sid=7c#🔒
 vless://19b6fa27-c968-46be-b980-ca371ff5c0f6@188.245.109.124:50552?security=reality&sni=yahoo.com&type=grpc&fp=chrome&pbk=NKXHq-QeFgTQWspK15CDrkx3frdLdaXKSIsI-SUl_FY&sid=09#🔒
 vless://2084deb2-fb34-4fd5-9f74-f6e2c5360206@168.119.248.187:223?security=reality&sni=ms.sodogodping.ir&type=tcp&fp=chrome&pbk=JOKX-kH_SOPrdPG26TdJzO6YSDItrRGXKhtv70Bn81o&sid=c7f175a94bd79f8d#🔒
-vless://588f094b-431b-422c-b80b-007945037072@95.164.47.60:443?security=tls&sni=de02.abvpn.ru&type=ws&host=de02.abvpn.ru&path=%2Fwebsocket#🔒
 vless://2404f667-5969-4883-a71a-ea2e0db2d25b@whatismyipaddress.com:2096?sni=wwwspeedtestnetwhiteberinsistomd6625996s09.gorgeserver1.ir&type=ws&host=wwwspeedtestnetwhiteberinsistomd6625996s09.gorgeserver1.ir&path=fp=chrome&security=tls#2%7C%F0%9F%87%AB%F0%9F%87%B74%20%7C%20%201.8MB/s%7C36%25%7COpenai
 vless://c35e4886-324a-4504-b19a-2491aabb9e44@zula.ir:2083?path=%2F%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20----%40VPNTV20%3Fed%3D2048&security=tls&encryption=none&host=dd34.fastroot.ir&fp=firefox&type=ws&sni=dd34.fastroot.ir#[🇨🇦]t.me/ConfigsHub`
 vless://588f094b-431b-422c-b80b-007945037072@2.56.178.47:443?security=tls&sni=ru05.abvpn.ru&type=ws&host=ru05.abvpn.ru&path=%2Fwebsocket#🔒
@@ -158,8 +162,6 @@ vless://19b6fa27-c968-46be-b980-ca371ff5c0f6@157.90.117.244:50552?security=reali
 vless://838f5273-5d2d-4630-a0f5-9cc8e4aef4d6@45.131.209.78:2096?security=tls&sni=ScGiYaSk.rOcKsToNeY.InFo&type=ws&host=ScGiYaSk.rOcKsToNeY.InFo&path=%2F&fp=chrome&alpn=h2%2Chttp%2F1.1#🔒
 vless://4a3dc64b-17e1-4ae7-a9a4-851f9794d4c6@104.152.210.36:25536?security=reality&flow=xtls-rprx-vision&sni=apps.apple.com&type=tcp&fp=chrome&pbk=t4dzgL6Q-l6Y8d-Z0FSEvtAygZFDQqg0FPHn7Qxg90M&sid=c40fa703ffa3d3b8#🔒
 vless://15325faa-ecb3-44c6-817d-fb8853b2b175@160.19.167.184:443?security=tls&sni=id.lanexa.my.id&type=ws&host=id.lanexa.my.id&path=/vless&allowInsecure=1#🔒
-vless://39a91eaf-a379-4fff-a9c8-1cb01442b76f@104.31.16.95:2053?security=tls&sni=ir.akcovufun.ir&type=ws&host=ir.akcovufun.ir&path=%2F#🔒
-vless://588f094b-431b-422c-b80b-007945037072@5.182.86.128:443?security=tls&sni=nl07.abvpn.ru&type=ws&host=nl07.abvpn.ru&path=/websocket#🔒
 vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@205.233.181.186:2096?security=tls&sni=DrOt0Ai1Oq.DeRaKhT.iNfO&type=ws&host=DrOt0Ai1Oq.DeRaKhT.iNfO&path=%2F#🔒
 vless://96a1b724-68d2-4f4d-ab25-38ecd83577bc@45.131.208.168:2096?security=tls&sni=JpHzJdVn23.bLuEvIa.oRg&type=ws&host=JpHzJdVn23.bLuEvIa.oRg&path=%2F&fp=chrome&alpn=h3%2Ch2#🔒
 vless://721a6c8e-809f-404d-91d6-582860af9cc3@142.250.114.139:443?security=tls&sni=google.com&type=ws&host=gtest-638114869974.europe-west4.run.app&path=%2FrWUMkmNJBTurxq6Hlt8D6ftJ8qP7&fp=chrome&alpn=http/1.1#🔒
