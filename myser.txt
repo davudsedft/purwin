@@ -1,3 +1,13 @@
+trojan://8A5SgnpNyaCaORwOqgOSFZYDBAF4ENzSKKDX3eC5D63FlXCyY3a7zpDB9Iax3ZneR0Ywe@18.141.191.2:18332?security=tls&sni=handgun.protocolbuffer.com#%F0%9F%87%B8%F0%9F%87%ACSG-18.141.191.2-0284
+trojan://RaC8S3NF583ga3xSu3yTxCCaYlpRxOBDKOjOF9K3aDFAaY3eeyDc4aX0lN0nZXzn87SZS@47.129.49.22:18333?security=tls&sni=diagram.protocolbuffer.com#%F0%9F%87%B8%F0%9F%87%ACSG-47.129.49.22-0310
+trojan://6303ux8zpDA9c9OTqCFNFeCCDalxaFZAE36p3RYSaORYDSKTRZIy3nDjZD2R5wS48Yxc8@13.213.45.77:18332?security=tls&sni=briefly.protocolbuffer.com#%F0%9F%87%B8%F0%9F%87%ACSG-13.213.45.77-0285
+trojan://dQUWbcwECl@automq3-proxy.automq-sg.com:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-74.176.59.185-0506
+trojan://AACY9aXaD0ZDyuyOBzD3Onl2ICw6anBE8l3SRl38RCSDpw7FpYzcRj7NeaFSpR5qx85Su@13.114.65.253:443?security=tls&sni=forward.meijireform.com#%F0%9F%87%AF%F0%9F%87%B5JP-13.114.65.253-5774
+trojan://xxoo@138.197.5.103:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0385
+trojan://xxoo@us.blazeppn.info:443?security=tls&sni=us.blazeppn.info#%F0%9F%87%BA%F0%9F%87%B8US-138.197.5.103-0937
+trojan://3lSlAcxDSNpeKOyZ3pIlyYRC7328C3X93Aa8SFOgDX4D7An0zYSRDRuaRE8lCpCASE6Bu@154.17.25.96:443?security=tls&sni=theory.wireshop.net#%F0%9F%87%BA%F0%9F%87%B8US-154.17.25.96-0269
+trojan://dQUWbcwECl@automq4-proxy.automq-sg.com:443?security=tls#%F0%9F%87%B8%F0%9F%87%ACSG-20.191.138.47-0534
+trojan://dQUWbcwECl@20.191.138.47:443?security=tls&sni=automq4-proxy.automq-sg.com#%F0%9F%87%B8%F0%9F%87%ACSG-20.191.138.47-5798
 vless://bec44ac3-a662-4179-a9dd-2aa881706dde@157.173.127.224:443?security=reality&sni=analytics.google.com&type=tcp&fp=chrome&pbk=Ajk0QudeMVQocN88OG14PpsxparFuRJlvqzXDlW-gyQ&sid=aba7bc9a#🔒
 vless://3a4cc526-861c-4e2d-9a02-c357c72b3cc3@65.21.102.23:54401?security=reality&sni=zula.ir&type=tcp&fp=chrome&pbk=AqGO4WCsGfcX046DebowJcVTKANHPazld7XyAHD_RQE&sid=e5201e3c#🔒
 vless://a0de1607-5b63-fab8-a759-9f98706b6125@146.19.90.10:443?security=reality&flow=xtls-rprx-vision&sni=speed.cloudflare.com&type=tcp&fp=chrome&pbk=oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko#🔒
