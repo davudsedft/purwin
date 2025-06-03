@@ -1,2 +1,10 @@
 hysteria2://nfsn666@130.162.182.250:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AC%F0%9F%87%A7%20GB-130.162.182.250%3A8888
 hysteria2://nfsn666@ld-arm.nfsn666.gq:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#%40drakvpn%F0%9F%90%89
+hysteria://208.87.243.151:17549/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=10&downmbps=50&alpn=h3#Channel%20id%3A%20%40ShadowProxy66%F0%9F%87%BA%F0%9F%87%B8%20%286%29
+hy2://nfsn666@130.162.182.250:8888/?insecure=1&sni=ld-arm.nfsn666.gq#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AC%F0%9F%87%A7%20GB-130.162.182.250%3A8888
+hy2://bdcde962-0855-493c-a8c7-acec071973a5@45.147.201.231:33076/?insecure=1&obfs=salamander&obfs-password=NDhhNmY5YTY0MGYzOTgxYQ%3D%3D#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%B7%F0%9F%87%BA%20RU-45.147.201.231%3A33076
+hysteria://208.87.243.151:17549/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.243.151%3A17549
+hy2://862e90e1-2f26-4506-b8b9-0adf20da05fc@129.153.59.124:54530/?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A8%F0%9F%87%A6%20CA-129.153.59.124%3A54530
+hy2://862e90e1-2f26-4506-b8b9-0adf20da05fc@129.153.59.124:54530/?insecure=1&sni=www.bing.com#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%A8%F0%9F%87%A6%20CA-129.153.59.124%3A54530
+hysteria://208.87.243.187:40528/?insecure=1&peer=apple.com&auth=dongtaiwang.com&upmbps=100&downmbps=100&alpn=h3#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%BA%F0%9F%87%B8%20US-208.87.243.187%3A40528
+hysteria://208.87.243.151:17549/?insecure=1&peer=www.bing.com&auth=dongtaiwang.com&upmbps=1000&downmbps=1000&alpn=h3#%F0%9F%87%BA%F0%9F%87%B8%20United%20States%20-%20Los%20Angeles%20%F0%9F%8C%8E%20HY1-UDP-TLS%204%E2%83%A3
