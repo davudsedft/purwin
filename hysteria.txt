@@ -1,0 +1,2 @@
+hysteria2://nfsn666@130.162.182.250:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#%F0%9F%94%92%20HYSTERIA-UDP%20%F0%9F%87%AC%F0%9F%87%A7%20GB-130.162.182.250%3A8888
+hysteria2://nfsn666@ld-arm.nfsn666.gq:8888?security=tls&insecure=1&sni=ld-arm.nfsn666.gq#%40drakvpn%F0%9F%90%89
