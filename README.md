@@ -31,7 +31,7 @@
 <br>
 <p>
   برای دانلود جدیدترین نسخه میتونین عکس و اسکن کنید
-  
+   <a href = "https://github.com/davudsedft/newpurnet/releases/download/Win/purcowin.exe">دانلود جدیدترین ورژن</a>
 </p>
 <br>
  <picture>
