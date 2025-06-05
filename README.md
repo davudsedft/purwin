@@ -36,6 +36,7 @@
 <br>
  <picture>
    <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/davudsedft/purwin/blob/main/purwin.png" width="200px"  >
+   <a href = "https://github.com/davudsedft/newpurnet/releases/download/Win/purcowin.exe">دانلود جدیدترین ورژن</a>
 </picture>
  <picture>
   
