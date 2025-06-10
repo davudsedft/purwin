@@ -1,3 +1,21 @@
+
+#!/bin/bash
+# رفتن به مسیر خود فایل
+cd "$(dirname "$0")"
+# اجرای برنامه
+python3 main.py
+
+
+
+
+
+
+
+
+
+
+
+
 #!/bin/bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
