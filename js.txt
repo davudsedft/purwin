@@ -1,34 +1,23 @@
 #!/bin/bash
 
-set -e
+# مسیر فولدری که اسکریپت در اون قرار داره (مسیر اکسترکت شده)
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-APP_NAME="purnet"
-INSTALL_DIR="/opt/$APP_NAME"
-SHORTCUT_NAME="PurNet.desktop"
-USER_HOME="$HOME"
-PYTHON_PATH=$(which python3)
+# مسیر فایل دسکتاپ در دسکتاپ کاربر
+DESKTOP_FILE="$HOME/Desktop/PurWin.desktop"
 
-echo "✅ نصب $APP_NAME در حال انجام است..."
-
-# ساخت پوشه نصب
-sudo mkdir -p "$INSTALL_DIR"
-sudo cp main.py purwint icon.png "$INSTALL_DIR"
-sudo chmod +x "$INSTALL_DIR/purwint"
-
-# ساخت فایل دسکتاپ در دایرکتوری فعلی
-echo "📄 در حال ساخت فایل شورتکات..."
-
-cat > "./$SHORTCUT_NAME" <<EOF
+# ساخت فایل دسکتاپ
+cat > "$DESKTOP_FILE" <<EOL
 [Desktop Entry]
-Name=PurNet
-Exec=$PYTHON_PATH $INSTALL_DIR/main.py
-Icon=$INSTALL_DIR/icon.png
 Type=Application
+Name=PurWin
+Exec=python3 "$DIR/main.py"
+Icon=$DIR/icon.png
+Path=$DIR
 Terminal=false
-Categories=Network;
-EOF
+EOL
 
-chmod +x "./$SHORTCUT_NAME"
+# قابل اجرا کردن فایل شورتکات
+chmod +x "$DESKTOP_FILE"
 
-echo "✅ فایل $SHORTCUT_NAME ساخته شد."
-echo "📌 می‌تونی این فایل رو بکشونی روی دسکتاپ یا توی منوی برنامه‌ها قرار بدی."
+echo "✅ شورتکات ساخته شد: $DESKTOP_FILE"
