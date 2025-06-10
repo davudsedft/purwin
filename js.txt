@@ -1,51 +1,31 @@
 #!/bin/bash
 
-echo "📦 در حال نصب PurWin GUI ..."
+set -e
 
-# نصب پیش‌نیازها
-echo "🐍 نصب پکیج‌های پایتون..."
-pip3 install --break-system-packages customtkinter psutil Pillow
+APP_NAME="purnet"
+INSTALL_DIR="/opt/$APP_NAME"
+DESKTOP_FILE="$HOME/.local/share/applications/$APP_NAME.desktop"
 
-# ساخت مسیر نصب
-sudo mkdir -p /opt/purwin
-sudo cp main.py purwint icon.png /opt/purwin/
-sudo chmod +x /opt/purwin/main.py /opt/purwin/purwint
+echo "✅ در حال نصب $APP_NAME ..."
 
-# ساخت فایل policykit برای pkexec
-echo "🔐 در حال ساخت PolicyKit..."
-sudo tee /usr/share/polkit-1/actions/com.purwin.gui.policy > /dev/null <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<policyconfig>
-  <action id="com.purwin.gui">
-    <description>Run PurWin GUI as root</description>
-    <message>Authentication is required to run PurWin GUI</message>
-    <defaults>
-      <allow_any>auth_admin</allow_any>
-      <allow_inactive>auth_admin</allow_inactive>
-      <allow_active>auth_admin</allow_active>
-    </defaults>
-    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/python3</annotate>
-    <annotate key="org.freedesktop.policykit.exec.argv1">/opt/purwin/main.py</annotate>
-  </action>
-</policyconfig>
-EOF
+# ساخت پوشه نصب
+sudo mkdir -p "$INSTALL_DIR"
+sudo cp main.py purwint icon.png "$INSTALL_DIR"
+sudo chmod +x "$INSTALL_DIR/purwint"
 
 # ساخت فایل desktop
-echo "🖥️ در حال ساخت شورتکات دسکتاپ..."
-tee ~/.local/share/applications/purwin.desktop > /dev/null <<EOF
+echo "📁 در حال ساخت شورتکات دسکتاپ..."
+
+cat > "$DESKTOP_FILE" <<EOF
 [Desktop Entry]
-Name=PurWin GUI
-Exec=pkexec python3 /opt/purwin/main.py
-Icon=/opt/purwin/icon.png
-Terminal=false
+Name=PurNet
+Exec=python3 $INSTALL_DIR/main.py
+Icon=$INSTALL_DIR/icon.png
 Type=Application
-Categories=Utility;
+Terminal=false
+Categories=Network;
 EOF
 
-chmod +x ~/.local/share/applications/purwin.desktop
+chmod +x "$DESKTOP_FILE"
 
-# کپی روی دسکتاپ
-cp ~/.local/share/applications/purwin.desktop ~/Desktop/
-chmod +x ~/Desktop/purwin.desktop
-
-echo "✅ نصب با موفقیت انجام شد. آیکون روی دسکتاپ ایجاد شد."
+echo "🎉 نصب کامل شد! شورتکات در منوی برنامه‌ها موجود است."
