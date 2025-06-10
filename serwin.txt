@@ -2,3 +2,10 @@ pip install customtkinter psutil Pillow
 
 #!/usr/bin/env python3
 
+[Desktop Entry]
+Name=PurWin GUI
+Exec=/opt/purwin/main.py
+Icon=/opt/purwin/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;
