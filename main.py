@@ -2,6 +2,7 @@ import customtkinter
 import os
 import json
 import sys
+
 import urllib.parse
 import subprocess
 import psutil
@@ -134,11 +135,22 @@ def kill_purwint_process():
         except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             pass
 
+
+def run_purwint():
+    purwint_path = os.path.join(os.path.dirname(sys.argv[0]), "purwint")
+
+    try:
+        subprocess.Popen(["pkexec", purwint_path])
+        print("purwint started with root permission")
+    except Exception as e:
+        print("خطا در اجرای purwint با pkexec:", e)
+
 def toggle_vpn():
     if switch_var.get() == 1:
         save_config_json(textbox.get("1.0", "end"))
         try:
-            subprocess.Popen([EXE_PATH, "run", "-c", CONFIG_FILE], cwd=WORK_DIR)
+            subprocess.Popen(["pkexec", EXE_PATH, "run", "-c", CONFIG_FILE], cwd=WORK_DIR)
+
             status_label.configure(text="وضعیت: متصل", text_color="green")
         except Exception as e:
             status_label.configure(text=f"خطا: {e}", text_color="red")
