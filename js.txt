@@ -4,28 +4,31 @@ set -e
 
 APP_NAME="purnet"
 INSTALL_DIR="/opt/$APP_NAME"
-DESKTOP_FILE="$HOME/.local/share/applications/$APP_NAME.desktop"
+SHORTCUT_NAME="PurNet.desktop"
+USER_HOME="$HOME"
+PYTHON_PATH=$(which python3)
 
-echo "✅ در حال نصب $APP_NAME ..."
+echo "✅ نصب $APP_NAME در حال انجام است..."
 
 # ساخت پوشه نصب
 sudo mkdir -p "$INSTALL_DIR"
 sudo cp main.py purwint icon.png "$INSTALL_DIR"
 sudo chmod +x "$INSTALL_DIR/purwint"
 
-# ساخت فایل desktop
-echo "📁 در حال ساخت شورتکات دسکتاپ..."
+# ساخت فایل دسکتاپ در دایرکتوری فعلی
+echo "📄 در حال ساخت فایل شورتکات..."
 
-cat > "$DESKTOP_FILE" <<EOF
+cat > "./$SHORTCUT_NAME" <<EOF
 [Desktop Entry]
 Name=PurNet
-Exec=python3 $INSTALL_DIR/main.py
+Exec=$PYTHON_PATH $INSTALL_DIR/main.py
 Icon=$INSTALL_DIR/icon.png
 Type=Application
 Terminal=false
 Categories=Network;
 EOF
 
-chmod +x "$DESKTOP_FILE"
+chmod +x "./$SHORTCUT_NAME"
 
-echo "🎉 نصب کامل شد! شورتکات در منوی برنامه‌ها موجود است."
+echo "✅ فایل $SHORTCUT_NAME ساخته شد."
+echo "📌 می‌تونی این فایل رو بکشونی روی دسکتاپ یا توی منوی برنامه‌ها قرار بدی."
