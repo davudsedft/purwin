@@ -1,1 +1,4 @@
 pip install customtkinter psutil Pillow
+
+#!/usr/bin/env python3
+
