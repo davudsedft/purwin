@@ -149,7 +149,12 @@ def toggle_vpn():
     if switch_var.get() == 1:
         save_config_json(textbox.get("1.0", "end"))
         try:
-            subprocess.Popen(["pkexec", EXE_PATH, "run", "-c", CONFIG_FILE], cwd=WORK_DIR)
+            subprocess.Popen(
+               ["pkexec", EXE_PATH, "run", "-c", CONFIG_FILE],
+                 cwd=WORK_DIR,
+                 stdout=subprocess.DEVNULL,
+                 stderr=subprocess.DEVNULL
+                                          )
 
             status_label.configure(text="وضعیت: متصل", text_color="green")
         except Exception as e:
