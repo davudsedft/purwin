@@ -1,23 +1,19 @@
 #!/bin/bash
 
-# مسیر فولدری که اسکریپت در اون قرار داره (مسیر اکسترکت شده)
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# مسیر فایل دسکتاپ در دسکتاپ کاربر
 DESKTOP_FILE="$HOME/Desktop/PurWin.desktop"
 
-# ساخت فایل دسکتاپ
 cat > "$DESKTOP_FILE" <<EOL
 [Desktop Entry]
 Type=Application
 Name=PurWin
-Exec=python3 "$DIR/main.py"
+Exec=$DIR/launch.sh
 Icon=$DIR/icon.png
 Path=$DIR
 Terminal=false
 EOL
 
-# قابل اجرا کردن فایل شورتکات
 chmod +x "$DESKTOP_FILE"
+chmod +x "$DIR/launch.sh"
 
-echo "✅ شورتکات ساخته شد: $DESKTOP_FILE"
+echo "✅ شورتکات ساخته شد و اجرای برنامه از مسیر صحیح تنظیم شد."
