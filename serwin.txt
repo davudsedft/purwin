@@ -1,1 +1,1 @@
-rr
+pip install customtkinter psutil Pillow
