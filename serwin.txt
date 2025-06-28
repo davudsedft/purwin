@@ -1,43 +1,40 @@
-pip install customtkinter psutil Pillow
-
-#!/usr/bin/env python3
-
-[Desktop Entry]
-Name=PurWin GUI
-Exec=/opt/purwin/main.py
-Icon=/opt/purwin/icon.png
-Terminal=false
-Type=Application
-Categories=Utility;
-
-
-#!/bin/bash
-
-echo "📦 نصب PurWin GUI در حال انجام است..."
-
-# ساخت پوشه برنامه
-sudo mkdir -p /opt/purwin
-
-# کپی فایل‌ها
-sudo cp main.py /opt/purwin/
-sudo cp purwint /opt/purwin/
-sudo cp icon.png /opt/purwin/
-
-# اعطای دسترسی اجرایی
-sudo chmod +x /opt/purwin/main.py
-sudo chmod +x /opt/purwin/purwint
-
-# نصب پکیج‌های پایتون
-echo "🐍 نصب پکیج‌های مورد نیاز Python..."
-pip3 install --break-system-packages customtkinter psutil Pillow
-
-# ساخت شورتکات دسکتاپ
-echo "🖥️ ایجاد شورتکات دسکتاپ..."
-cp myapp.desktop ~/.local/share/applications/
-chmod +x ~/.local/share/applications/myapp.desktop
-
-# قرار دادن شورتکات در دسکتاپ کاربر
-cp myapp.desktop ~/Desktop/
-chmod +x ~/Desktop/myapp.desktop
-
-echo "✅ نصب با موفقیت انجام شد!"
+  "outbounds": [
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0000:0000:0000:0000:0000:ffff:171b:18f1",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "id": "94064b6e-df7a-4803-a7fc-a8bb9cfcaf3b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "realitySettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "publicKey": "I9Tt9RwE2l_KnzXKQFvGKIaHHHXrLkNUFCdXPz8iJzU",
+          "serverName": "speedtest.net",
+          "shortId": "5c",
+          "show": false
+        },
+        "security": "reality",
+        "xhttpSettings": {
+          "host": "ping-cdn-soft00.global.ssl.fastly.net",
+          "path": "/path"
+        }
+      },
+      "tag": "proxy"
+    },
