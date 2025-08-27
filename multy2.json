@@ -1,0 +1,162 @@
+{
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "userLevel": 8
+            },
+            "sniffing": {
+                "enabled": true,
+                "routeOnly": false,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            },
+            "tag": "socks"
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10853,
+            "protocol": "dokodemo-door",
+            "settings": {
+                "address": "1.1.1.1",
+                "network": "tcp,udp",
+                "port": 53
+            },
+            "tag": "dns-in"
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "shadowsocks",
+            "tag": "proxy-1",
+            "settings": {
+                "servers": [
+                    {
+                        "address": "46.101.245.131",
+                        "port": 44354,
+                        "method": "chacha20-ietf-poly1305",
+                        "password": "9RviNa4tscjcmCB408vLSg"
+                    }
+                ]
+            },
+            "mux": {
+                "enabled": false,
+                "concurrency": -1
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "tcpSettings": {
+                    "header": {
+                        "type": "none"
+                    }
+                }
+            }
+        },
+        {
+            "protocol": "vless",
+            "tag": "proxy-2",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "104.18.58.254",
+                        "port": 80,
+                        "users": [
+                            {
+                                "id": "8c17092b-4d89-44e3-9dcb-a00c2bf28827",
+                                "encryption": "none",
+                                "flow": "",
+                                "level": 8
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "?ed=2560",
+                    "headers": {
+                        "Host": "barayeiranmahsang.bahareh.dpdns.org"
+                    }
+                }
+            },
+            "mux": {
+                "enabled": false,
+                "concurrency": -1
+            }
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIP"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        },
+        {
+            "protocol": "dns",
+            "tag": "dns-out",
+            "settings": {
+                "servers": [
+                    "https:\/\/dns.google\/dns-query",
+                    "https:\/\/cloudflare-dns.com\/dns-query"
+                ]
+            }
+        }
+    ],
+    "routing": {
+        "domainStrategy": "AsIs",
+        "rules": [
+            {
+                "inboundTag": [
+                    "dns-in"
+                ],
+                "outboundTag": "dns-out",
+                "type": "field"
+            },
+            {
+                "type": "field",
+                "balancerTag": "proxy-round",
+                "network": "tcp,udp"
+            }
+        ],
+        "balancers": [
+            {
+                "tag": "proxy-round",
+                "selector": [
+                    "proxy-1",
+                    "proxy-2"
+                ],
+                "strategy": {
+                    "type": "leastPing"
+                }
+            }
+        ]
+    },
+    "observatory": {
+        "enableConcurrency": true,
+        "probeInterval": "120s",
+        "probeUrl": "https:\/\/www.gstatic.com\/generate_204",
+        "subjectSelector": [
+            "proxy-1",
+            "proxy-2"
+        ]
+    },
+    "log": {
+        "loglevel": "warning"
+    }
+}
