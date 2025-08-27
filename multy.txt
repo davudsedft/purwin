@@ -79,103 +79,25 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-108a95bf",
-        "vless-77767048",
-        "vless-edf781b9",
-        "vless-f27b3f5c",
-        "vless-27f08776",
-        "vless-fd8aedce",
-        "vless-569f1ebc",
-        "vless-99c5bfd5",
-        "vless-b48b69b2",
-        "vless-d590edec",
-        "vless-e2383ae3",
-        "vless-764f90fe",
-        "vless-00958233",
-        "vless-cc36f1ba",
-        "vless-6937068c",
-        "vless-fe25c4d6",
-        "vless-e150571b",
-        "vless-c457934d",
-        "vless-d9c2a60e",
-        "vless-732c4fc3",
-        "vless-03ab8fef",
-        "vless-01c724a5",
-        "vless-e1c67d21",
-        "vless-3c4c7d94",
-        "vless-6c5484e3",
-        "vless-7939bb16",
-        "vless-2f41b3f4",
-        "vless-91fff4ca",
-        "vless-57aaafc7",
-        "vless-92b4d65a",
-        "vless-85cc6887",
-        "vless-863c1e47",
-        "vless-e33b1bd0",
-        "vless-2371f38f",
-        "vless-f92aaa62",
-        "vless-af18520f",
-        "vless-22d4c243",
-        "vless-e2d43312",
-        "vless-c57b1298",
-        "vless-68b42ed7",
-        "vless-6b695378",
-        "vless-f6a073d5",
-        "vless-ba79d001",
-        "vless-a0ceedfd",
-        "vless-ac6cc879",
-        "vless-7d92e495",
-        "vless-738026b6",
-        "vless-2d6f8976",
-        "vless-fd062230",
-        "vless-3ebf3303",
-        "vless-d7864861",
-        "vless-1831084f",
-        "vless-e60befaa",
-        "vless-a43bd364",
-        "vless-fdea5410",
-        "vless-93bfbb01",
-        "vless-47c8651a",
-        "vless-39d448bb",
-        "vless-627044e4",
-        "vless-07a73a2d",
-        "vless-12cb70cd",
-        "vless-e7761303",
-        "vless-c4710905",
-        "vless-022d1d1b",
-        "vless-78f0ffe6",
-        "vless-f3cb67c8",
-        "vless-b26b41f5",
-        "vless-4e198715",
-        "vless-a4539271",
-        "vless-4ec1fc74",
-        "vless-cf781d96",
-        "vless-e87a9573",
-        "vless-48d460ea",
-        "vless-0b1b2bc5",
-        "vless-7b6affea",
-        "vless-87769b84",
-        "vless-586718d2",
-        "vless-adc2d929",
-        "vless-35cb6399",
-        "vless-b87bb144",
-        "vless-363bc3c9",
-        "vless-e0865bdf",
-        "vless-98933262",
-        "vless-0d8917d1",
-        "vless-9a4f4655",
-        "vless-a0f3569d",
-        "vless-b51210a7",
-        "vless-4dc19c9a",
-        "vless-d1a2cf3b",
-        "vless-dd743722",
-        "vless-894e2bfd",
-        "vless-4862377e",
-        "vless-270ee963",
-        "vless-99cc58e1",
-        "vless-a07c4862",
-        "vless-600cb057",
-        "vless-5fffe69e",
+        "vless-dec825e3",
+        "vless-95bf7792",
+        "vless-4d754459",
+        "vless-5f6520e8",
+        "vless-26606696",
+        "vless-a3b682ad",
+        "vless-9afa218b",
+        "vless-6b7ade61",
+        "vless-a98ca71f",
+        "vless-b733e767",
+        "vless-f340799d",
+        "vless-7b576b71",
+        "vless-148cd0e7",
+        "vless-a386770d",
+        "vless-3cd1ef30",
+        "vless-186e813e",
+        "vless-89e654dd",
+        "vless-c69dad0e",
+        "vless-ea190d41",
         "direct"
       ]
     },
@@ -183,103 +105,25 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-108a95bf",
-        "vless-77767048",
-        "vless-edf781b9",
-        "vless-f27b3f5c",
-        "vless-27f08776",
-        "vless-fd8aedce",
-        "vless-569f1ebc",
-        "vless-99c5bfd5",
-        "vless-b48b69b2",
-        "vless-d590edec",
-        "vless-e2383ae3",
-        "vless-764f90fe",
-        "vless-00958233",
-        "vless-cc36f1ba",
-        "vless-6937068c",
-        "vless-fe25c4d6",
-        "vless-e150571b",
-        "vless-c457934d",
-        "vless-d9c2a60e",
-        "vless-732c4fc3",
-        "vless-03ab8fef",
-        "vless-01c724a5",
-        "vless-e1c67d21",
-        "vless-3c4c7d94",
-        "vless-6c5484e3",
-        "vless-7939bb16",
-        "vless-2f41b3f4",
-        "vless-91fff4ca",
-        "vless-57aaafc7",
-        "vless-92b4d65a",
-        "vless-85cc6887",
-        "vless-863c1e47",
-        "vless-e33b1bd0",
-        "vless-2371f38f",
-        "vless-f92aaa62",
-        "vless-af18520f",
-        "vless-22d4c243",
-        "vless-e2d43312",
-        "vless-c57b1298",
-        "vless-68b42ed7",
-        "vless-6b695378",
-        "vless-f6a073d5",
-        "vless-ba79d001",
-        "vless-a0ceedfd",
-        "vless-ac6cc879",
-        "vless-7d92e495",
-        "vless-738026b6",
-        "vless-2d6f8976",
-        "vless-fd062230",
-        "vless-3ebf3303",
-        "vless-d7864861",
-        "vless-1831084f",
-        "vless-e60befaa",
-        "vless-a43bd364",
-        "vless-fdea5410",
-        "vless-93bfbb01",
-        "vless-47c8651a",
-        "vless-39d448bb",
-        "vless-627044e4",
-        "vless-07a73a2d",
-        "vless-12cb70cd",
-        "vless-e7761303",
-        "vless-c4710905",
-        "vless-022d1d1b",
-        "vless-78f0ffe6",
-        "vless-f3cb67c8",
-        "vless-b26b41f5",
-        "vless-4e198715",
-        "vless-a4539271",
-        "vless-4ec1fc74",
-        "vless-cf781d96",
-        "vless-e87a9573",
-        "vless-48d460ea",
-        "vless-0b1b2bc5",
-        "vless-7b6affea",
-        "vless-87769b84",
-        "vless-586718d2",
-        "vless-adc2d929",
-        "vless-35cb6399",
-        "vless-b87bb144",
-        "vless-363bc3c9",
-        "vless-e0865bdf",
-        "vless-98933262",
-        "vless-0d8917d1",
-        "vless-9a4f4655",
-        "vless-a0f3569d",
-        "vless-b51210a7",
-        "vless-4dc19c9a",
-        "vless-d1a2cf3b",
-        "vless-dd743722",
-        "vless-894e2bfd",
-        "vless-4862377e",
-        "vless-270ee963",
-        "vless-99cc58e1",
-        "vless-a07c4862",
-        "vless-600cb057",
-        "vless-5fffe69e"
+        "vless-dec825e3",
+        "vless-95bf7792",
+        "vless-4d754459",
+        "vless-5f6520e8",
+        "vless-26606696",
+        "vless-a3b682ad",
+        "vless-9afa218b",
+        "vless-6b7ade61",
+        "vless-a98ca71f",
+        "vless-b733e767",
+        "vless-f340799d",
+        "vless-7b576b71",
+        "vless-148cd0e7",
+        "vless-a386770d",
+        "vless-3cd1ef30",
+        "vless-186e813e",
+        "vless-89e654dd",
+        "vless-c69dad0e",
+        "vless-ea190d41"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -291,1395 +135,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-108a95bf",
-      "server": "sss53988.tas-bazi.com",
-      "server_port": 443,
-      "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "sss53988.tas-bazi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-77767048",
-      "server": "188.114.98.112",
-      "server_port": 80,
-      "uuid": "6c9fa651-7d63-4b88-ab3c-b39d5a8dd440",
-      "flow": "",
-      "transport": {
-        "path": "/ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY?ed=2560",
-        "headers": {
-          "Host": "JOIN---ELiV2-RAY.cloudns.pro."
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "188.114.98.112",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-edf781b9",
-      "server": "sss71706.tas-bazi.com",
-      "server_port": 443,
-      "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "sss71706.tas-bazi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-f27b3f5c",
-      "server": "osi1.speedx3.info",
-      "server_port": 8880,
-      "uuid": "f716fa40-e997-42d8-b93c-7122c63cc122",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "osi1.speedx3.info",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-27f08776",
-      "server": "104.18.58.254",
-      "server_port": 80,
-      "uuid": "8c17092b-4d89-44e3-9dcb-a00c2bf28827",
-      "flow": "",
-      "transport": {
-        "path": "?ed=2560",
-        "headers": {
-          "Host": "barayeiranmahsang.bahareh.dpdns.org"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "104.18.58.254",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-fd8aedce",
-      "server": "sss93336.tas-bazi.com",
-      "server_port": 443,
-      "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "sss93336.tas-bazi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-569f1ebc",
-      "server": "ru.sfasti.ru",
-      "server_port": 443,
-      "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "ru.sfasti.ru",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-99c5bfd5",
-      "server": "104.21.72.109",
-      "server_port": 80,
-      "uuid": "6c9fa651-7d63-4b88-ab3c-b39d5a8dd440",
-      "flow": "",
-      "transport": {
-        "path": "/Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2---Mosiv2--Mosiv2?ed=2560",
-        "headers": {
-          "Host": "mosiv2.cloudns.pro."
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "dfgopee-workers.dev",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-b48b69b2",
-      "server": "104.17.147.22",
-      "server_port": 8080,
-      "uuid": "Parsashonam-Bot-16",
-      "flow": "",
-      "transport": {
-        "path": "/Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam-Parsashonam?ed=2056",
-        "headers": {
-          "Host": "Fi.Parsashonam.CfD."
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "104.17.147.22",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-d590edec",
-      "server": "104.16.1.106",
-      "server_port": 80,
-      "uuid": "1a691112-bf37-4306-98f6-17a74e1576fa",
-      "flow": "",
-      "transport": {
-        "path": "/FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM-FASTSHOVPNTELEGRAM?ed=2048",
-        "headers": {
-          "Host": "eng.vinamarketcenter.ir"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "104.16.1.106",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e2383ae3",
-      "server": "91.99.126.93",
-      "server_port": 8443,
-      "uuid": "bb7b030f-fd37-488a-be1f-1a26d874cb26",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "91.99.126.93",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-764f90fe",
-      "server": "sss74251.tas-bazi.com",
-      "server_port": 443,
-      "uuid": "7606bb75-416a-4f99-ba20-019cb25543cf",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "sss74251.tas-bazi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-00958233",
-      "server": "91.99.203.123",
-      "server_port": 443,
-      "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "91.99.203.123",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-cc36f1ba",
-      "server": "91.99.216.98",
-      "server_port": 443,
-      "uuid": "f3af923e-ecfe-46d5-9c27-4ff95f739afe",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "91.99.216.98",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-6937068c",
-      "server": "malaysia.com",
-      "server_port": 443,
-      "uuid": "c4587bda-09fc-4b3b-8221-4450fccc33d1",
-      "flow": "",
-      "transport": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "yx.yushan.dpdns.org"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "yx.yushan.dpdns.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-fe25c4d6",
-      "server": "104.26.1.108",
-      "server_port": 443,
-      "uuid": "65a32d27-7a02-45a8-b90a-29f6bebc87ae",
-      "flow": "",
-      "transport": {
-        "path": "/sg3?ed=2560/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e150571b",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "39ca66b9-a34c-4031-a6ce-8846f75d8cb9",
-      "flow": "",
-      "transport": {
-        "path": "/sg10/?TELEGRAM_CHANEL_JKVPN_JKVPN_JKVPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-c457934d",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2560/?V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS---V2RAYNG_FARS",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-d9c2a60e",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2560/?JKVPNTELEGRAM_CHANEL_JKVPN_JKVPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-732c4fc3",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?ed=2048JOIN---PLANB_PROXY",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03ab8fef",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2560",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01c724a5",
-      "server": "sss29026.tas-bazi.com",
-      "server_port": 443,
-      "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "sss29026.tas-bazi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e1c67d21",
-      "server": "104.26.5.134",
-      "server_port": 443,
-      "uuid": "d88937d0-ce43-4bf8-9df6-d632810ba9ff",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "007.xingfu.qzz.io",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-3c4c7d94",
-      "server": "www.speedtest.net",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "flow": "",
-      "transport": {
-        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "hetzner-12.apple.name.ng"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hetzner-12.apple.name.ng",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-6c5484e3",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "88538870-5626-4cd7-9cda-1e0b6253c9ce",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "6389113402676776513.VtNeT.infO",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-7939bb16",
-      "server": "www.visasoutheasteurope.com",
-      "server_port": 443,
-      "uuid": "5da52d2d-1ab8-48d0-8421-8354fd6ce7d3",
-      "flow": "",
-      "transport": {
-        "path": "/@Rayan_Config",
-        "headers": {
-          "Host": "rayan-config-06.rayan-ii.dns-dynamic.net"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-06.rAyAn-iI.DnS-DyNaMiC.NeT",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-2f41b3f4",
-      "server": "185.231.205.253",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "185.231.205.253",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-91fff4ca",
-      "server": "rayphoriahub.iran.soratpardaz.ir",
-      "server_port": 2021,
-      "uuid": "08c7eee8-b293-4475-fbec-a641f9bc64a5",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "preview.redd.it",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-57aaafc7",
-      "server": "www.visa.com.sg",
-      "server_port": 2087,
-      "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "vl.hongkong6.qzz.io"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vl.hongkong6.qzz.io",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-92b4d65a",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 443,
-      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "T3wRa98QnG.lIrA9xC7.iNfO"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "T3wRa98QnG.lIrA9xC7.iNfO",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-85cc6887",
-      "server": "104.26.1.108",
-      "server_port": 443,
-      "uuid": "65a32d27-7a02-45a8-b90a-29f6bebc87ae",
-      "flow": "",
-      "transport": {
-        "path": "/sg3?ed=2560/?ed=2048",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-863c1e47",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?-VPN_TELEGRAM_CHANEL_VPN_VPN_VPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e33b1bd0",
-      "server": "185.231.205.5",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "185.231.205.5",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-2371f38f",
-      "server": "jquery.com",
-      "server_port": 2052,
-      "uuid": "b5d99a97-ac4f-4509-9dc1-33d2a9a28148",
-      "flow": "",
-      "transport": {
-        "path": "@Rayan_Config",
-        "headers": {
-          "Host": "rAyAn-cOnFiG-TeLeGrAm-pRo-4.rAyAn-4.cLoUdNs.pRo"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "jquery.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-f92aaa62",
-      "server": "104.26.0.108",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-af18520f",
-      "server": "104.17.187.205",
-      "server_port": 443,
-      "uuid": "1688039e-a45f-499e-b9f4-c098c87d3b32",
-      "flow": "",
-      "transport": {
-        "path": "/@Rayan_Config",
-        "headers": {
-          "Host": "rayan-config-telegram-a01.rayan.dpdns.org"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-TeLeGrAm-a01.rAyAn.dPdNs.oRg",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-22d4c243",
-      "server": "check-host.net",
-      "server_port": 2082,
-      "uuid": "846e7df6-a3a0-4133-be03-c588fe070d0d",
-      "flow": "",
-      "transport": {
-        "path": "@Rayan_Config",
-        "headers": {
-          "Host": "rAyAn-cOnFiG-TeLeGrAm-pRo-5.rAyAn-5.cLoUdNs.pRo"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "check-host.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e2d43312",
-      "server": "104.26.0.108",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3?ed=2560/?JKVPNTELEGRAM_CHANEL_JKVPN_JKVPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-c57b1298",
-      "server": "104.18.131.54",
-      "server_port": 443,
-      "uuid": "d88937d0-ce43-4bf8-9df6-d632810ba9ff",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "007.xingfu.qzz.io"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "007.xingfu.qzz.io",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-68b42ed7",
-      "server": "104.26.8.156",
-      "server_port": 443,
-      "uuid": "c4587bda-09fc-4b3b-8221-4450fccc33d1",
-      "flow": "",
-      "transport": {
-        "headers": {
-          "Host": "yx.yushan.dpdns.org"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "yx.yushan.dpdns.org",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-6b695378",
-      "server": "104.26.0.108",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-f6a073d5",
-      "server": "jquery.com",
-      "server_port": 443,
-      "uuid": "5da52d2d-1ab8-48d0-8421-8354fd6ce7d3",
-      "flow": "",
-      "transport": {
-        "path": "/@Rayan_Config",
-        "headers": {
-          "Host": "rayan-config-05.rayan-ii.dns-dynamic.net"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-05.rAyAn-iI.DnS-DyNaMiC.NeT",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-ba79d001",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?ed=2048JOIN---PLANB_PROXY",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-a0ceedfd",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5/?-Tel-@V2rayAlpha",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-ac6cc879",
-      "server": "rplcehdfy3.makingirangreatagain.com",
-      "server_port": 2053,
-      "uuid": "1a834111-ded2-4078-f4a6-6dfd32b346c5",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "rplcehdfy3.makingirangreatagain.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-7d92e495",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3?ed=2560",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-738026b6",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-2d6f8976",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?TELEGRAM---JKVPN---JKVPN---JKVPN---JKVPN---JKVPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-fd062230",
-      "server": "50.114.178.67",
-      "server_port": 8080,
-      "uuid": "908c69ce-71a5-4eaa-a2e6-e5e5fbbcba00",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "50.114.178.67",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-3ebf3303",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2048Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-d7864861",
-      "server": "45.82.251.133",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "pqh26v3.sport26tennis.shop",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-1831084f",
-      "server": "fearless-change.oneeat.co",
-      "server_port": 80,
-      "uuid": "b055036a-2d81-4d46-ab18-4e1898b58cec",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fearless-change.oneeat.co",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e60befaa",
-      "server": "ava.game.naver.com.servpn.my.id",
-      "server_port": 443,
-      "uuid": "6cc53dc5-55b2-4968-bb7c-ee84e1429c63",
-      "flow": "",
-      "transport": {
-        "path": "/kr1?ed=2560",
-        "headers": {
-          "Host": "ava.game.naver.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ava.game.naver.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-a43bd364",
-      "server": "www.speedtest.net",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "hetzner-6.derberg.name.ng"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hetzner-6.derberg.name.ng",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-fdea5410",
-      "server": "104.26.0.108",
-      "server_port": 443,
-      "uuid": "6780a3c0-a98c-4622-b894-8e34167f7b31",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2560/?---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-93bfbb01",
-      "server": "ava.game.naver.com.servpn.my.id",
-      "server_port": 443,
-      "uuid": "6cc53dc5-55b2-4968-bb7c-ee84e1429c63",
-      "flow": "",
-      "transport": {
-        "path": "/@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz?ed=2560",
-        "headers": {
-          "Host": "ava.game.naver.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ava.game.naver.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-47c8651a",
-      "server": "188.245.75.235",
-      "server_port": 443,
-      "uuid": "e89ba39d-ae7e-493a-a57b-cdd55b42b4e3",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "188.245.75.235",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-39d448bb",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5/?-Tel-@V2rayAlpha",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-627044e4",
-      "server": "104.18.35.85",
-      "server_port": 443,
-      "uuid": "060a8fe8-7175-4ded-94a5-d9808bc645b6",
-      "flow": "",
-      "transport": {
-        "path": "/akamai/??ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-        "headers": {
-          "Host": "cf.vless.sandesh.fr"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "cf.vless.sandesh.fr",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-07a73a2d",
-      "server": "m22a.vip784.com",
-      "server_port": 33801,
-      "uuid": "f65e636d-c532-4e6c-b428-015402fd276c",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "m22a.vip784.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-12cb70cd",
-      "server": "172.66.40.99",
-      "server_port": 443,
-      "uuid": "6780a3c0-a98c-4622-b894-8e34167f7b31",
-      "flow": "",
-      "transport": {
-        "path": "/id5?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e7761303",
-      "server": "privasi.turah.my.id",
-      "server_port": 443,
-      "uuid": "0fbf4f81-2598-4b6a-a623-0ead4cb9efa8",
-      "flow": "",
-      "transport": {
-        "path": "/Free-CF-Proxy-AD192.3.113.4-19318?ed=2048@",
-        "headers": {
-          "Host": "privasi.turah.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "privasi.turah.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-c4710905",
-      "server": "mybb.com",
-      "server_port": 443,
-      "uuid": "a0ac9cf5-f8c8-43cf-a09b-908455fb2b4b",
-      "flow": "",
-      "transport": {
-        "path": "/@Rayan_Config",
-        "headers": {
-          "Host": "rayan-config-09.rayan-iii.dns-dynamic.net"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-cOnFiG-09.rAyAn-iIi.dNs-dYnAmIc.nEt",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-022d1d1b",
-      "server": "blog.ruangguru.com.servpn.my.id",
-      "server_port": 443,
-      "uuid": "65a32d27-7a02-45a8-b90a-29f6bebc87ae",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?--VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY---VITUREY--",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-78f0ffe6",
-      "server": "185.236.232.243",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "185.236.232.243",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-f3cb67c8",
-      "server": "pqh23v4.vetmainconf.shop",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "pqh23v4.vetmainconf.shop",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-b26b41f5",
-      "server": "careers.pypl.com",
-      "server_port": 443,
-      "uuid": "2642c002-1f66-46fd-8e4c-a25bba373c98",
-      "flow": "",
-      "transport": {
-        "headers": {
-          "Host": "cantarella.yaaechan.ip-ddns.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "cantarella.yaaechan.ip-ddns.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-4e198715",
-      "server": "104.18.12.229",
-      "server_port": 2087,
-      "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
-      "flow": "",
-      "transport": {
-        "path": "/?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy?ed=512",
-        "headers": {
-          "Host": "vl.hongkong6.qzz.io"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "vl.hongkong6.qzz.io",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-a4539271",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?ed=2048@Hddify---@Hddify---@Hddify---@Hddify",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-4ec1fc74",
-      "server": "172.67.74.133",
-      "server_port": 443,
-      "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
-      "flow": "",
-      "transport": {
-        "path": "/sg3/?ed=2048Join---i10VPN---Join---i10VPN---Join---i10VPN---Join---i10VPN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-cf781d96",
-      "server": "pqh24v8.waipdirect.shop",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "pqh24v8.waipdirect.shop",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-e87a9573",
-      "server": "blog.ruangguru.com.servpn.my.id",
-      "server_port": 443,
-      "uuid": "6780a3c0-a98c-4622-b894-8e34167f7b31",
-      "flow": "",
-      "transport": {
-        "path": "/@V2rayBaaz---@V2rayBaaz---@V2rayBaaz---@V2rayBaaz?ed=2560",
-        "headers": {
-          "Host": "blog.ruangguru.com.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.ruangguru.com.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-48d460ea",
-      "server": "5.181.171.2",
-      "server_port": 443,
-      "uuid": "ea76de66-aa2b-ad79-d2f9-e21e361962c7",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "speed.cloudflare.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-0b1b2bc5",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {
-        "path": "/id5?/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
-        "headers": {
-          "Host": "app-stg.gopay.co.id.servpn.my.id"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-7b6affea",
-      "server": "45.82.251.122",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "45.82.251.122",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-87769b84",
-      "server": "185.236.232.223",
-      "server_port": 8880,
-      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "185.236.232.223",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-586718d2",
-      "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
-      "server_port": 2096,
-      "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
-      "flow": "",
-      "transport": {
-        "path": "/",
-        "headers": {
-          "Host": "BbV6mQ1p5B.wAsAbI9890.oRg"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "BbV6mQ1p5B.wAsAbI9890.oRg",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-adc2d929",
+      "tag": "vless-dec825e3",
       "server": "45.82.251.142",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -1693,7 +149,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-35cb6399",
+      "tag": "vless-95bf7792",
       "server": "ipw.gfdv54cvghhgfhgj-njhgj64.info",
       "server_port": 443,
       "uuid": "e999db7a-1b17-4da6-bc37-c9fa24af2e93",
@@ -1713,7 +169,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-b87bb144",
+      "tag": "vless-4d754459",
       "server": "ava.game.naver.com.servpn.my.id",
       "server_port": 443,
       "uuid": "4ca95fa5-8967-4bdc-a82d-3a65b44a3818",
@@ -1733,7 +189,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-363bc3c9",
+      "tag": "vless-5f6520e8",
       "server": "www.speedtest.net",
       "server_port": 8443,
       "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
@@ -1753,7 +209,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-e0865bdf",
+      "tag": "vless-26606696",
       "server": "45.82.251.97",
       "server_port": 8880,
       "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
@@ -1767,7 +223,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-98933262",
+      "tag": "vless-a3b682ad",
       "server": "aio.loophole.biz.id",
       "server_port": 80,
       "uuid": "f282b878-8711-45a1-8c69-5564172123c1",
@@ -1787,7 +243,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-0d8917d1",
+      "tag": "vless-9afa218b",
       "server": "172.67.74.133",
       "server_port": 443,
       "uuid": "3d7dd548-5456-4f28-8019-393fbfab3312",
@@ -1807,7 +263,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-9a4f4655",
+      "tag": "vless-6b7ade61",
       "server": "172.67.74.133",
       "server_port": 443,
       "uuid": "65a32d27-7a02-45a8-b90a-29f6bebc87ae",
@@ -1827,7 +283,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-a0f3569d",
+      "tag": "vless-a98ca71f",
       "server": "104.18.12.229",
       "server_port": 2087,
       "uuid": "90c7ad5e-cd15-4314-b39b-aeabd397d592",
@@ -1847,7 +303,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-b51210a7",
+      "tag": "vless-b733e767",
       "server": "m7a.vip784.com",
       "server_port": 33801,
       "uuid": "13c10b21-6211-4d43-856f-2e54ef2ac2e2",
@@ -1861,7 +317,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-4dc19c9a",
+      "tag": "vless-f340799d",
       "server": "m13a.vip784.com",
       "server_port": 33801,
       "uuid": "552f2fe8-fb7e-4f07-b4d6-a231f1dfec42",
@@ -1875,7 +331,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-d1a2cf3b",
+      "tag": "vless-7b576b71",
       "server": "blog.ruangguru.com.servpn.my.id",
       "server_port": 443,
       "uuid": "408f71e2-170d-4bf9-8b42-b6ba23cc227c",
@@ -1895,7 +351,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-dd743722",
+      "tag": "vless-148cd0e7",
       "server": "ava.game.naver.com.servpn.my.id",
       "server_port": 443,
       "uuid": "6cc53dc5-55b2-4968-bb7c-ee84e1429c63",
@@ -1915,7 +371,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-894e2bfd",
+      "tag": "vless-a386770d",
       "server": "app-stg.gopay.co.id.servpn.my.id",
       "server_port": 443,
       "uuid": "39ca66b9-a34c-4031-a6ce-8846f75d8cb9",
@@ -1935,7 +391,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-4862377e",
+      "tag": "vless-3cd1ef30",
       "server": "sss53988.tas-bazi.com",
       "server_port": 443,
       "uuid": "43fbd4b6-0e35-4b6f-9ed2-8fe95be28bf5",
@@ -1949,7 +405,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-270ee963",
+      "tag": "vless-186e813e",
       "server": "enthusiastic-century.oneeat.co",
       "server_port": 80,
       "uuid": "edc0a710-b736-455a-a9f2-d26150e624b2",
@@ -1966,7 +422,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-99cc58e1",
+      "tag": "vless-89e654dd",
       "server": "ava.game.naver.com.servpn.my.id",
       "server_port": 443,
       "uuid": "4ca95fa5-8967-4bdc-a82d-3a65b44a3818",
@@ -1986,7 +442,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-a07c4862",
+      "tag": "vless-c69dad0e",
       "server": "104.21.67.12",
       "server_port": 443,
       "uuid": "30f2d443-af46-4dd6-83c9-b5e17299ebd2",
@@ -2006,7 +462,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-600cb057",
+      "tag": "vless-ea190d41",
       "server": "bakrie.ac.id.servpn.my.id",
       "server_port": 443,
       "uuid": "4181c93f-0a91-48e3-bf9d-0e2c548734a5",
@@ -2021,20 +477,6 @@
       "tls": {
         "enabled": true,
         "server_name": "bakrie.ac.id.servpn.my.id",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-5fffe69e",
-      "server": "app-stg.gopay.co.id.servpn.my.id",
-      "server_port": 443,
-      "uuid": "41b8c97a-7fac-4191-8922-f58d42a9acf7",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "app-stg.gopay.co.id.servpn.my.id",
         "insecure": true
       }
     }
