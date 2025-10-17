@@ -2,7 +2,7 @@
     "inbounds": [
         {
             "listen": "127.0.0.1",
-            "port": 10009,
+            "port": 10809,
             "protocol": "socks",
             "settings": {
                 "auth": "noauth",
